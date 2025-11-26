@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:nuggets/gumbronze"
+  },
+  "material": "mythictinkers:gumbronze",
+  "needed": 9,
+  "value": 1
+}

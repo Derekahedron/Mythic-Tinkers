@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "mythictinkers:scarlet_neodymium",
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_scarlet_neodymium"
+  },
+  "temperature": 800
+}

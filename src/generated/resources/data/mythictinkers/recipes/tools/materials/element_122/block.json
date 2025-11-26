@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:storage_blocks/element_122"
+  },
+  "leftover": {
+    "count": 1,
+    "tag": "forge:ingots/element_122"
+  },
+  "material": "mythictinkers:element_122",
+  "needed": 1,
+  "value": 9
+}

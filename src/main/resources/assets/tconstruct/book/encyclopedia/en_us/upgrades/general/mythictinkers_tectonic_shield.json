@@ -1,0 +1,14 @@
+{
+  "modifier_id": "mythictinkers:tectonic_shield",
+  "text": [
+    {
+      "text": "Dino spirits protect you when using your tool, like charging your bow or holding your shield. First level adds 3 spirits. Later levels add one spirit each."
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 4 levels",
+    "Requires 1 upgrade slot per level",
+    "Cost to upgrade decreases after first level"
+  ]
+}

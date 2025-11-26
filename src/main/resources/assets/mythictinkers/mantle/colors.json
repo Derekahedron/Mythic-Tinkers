@@ -1,0 +1,45 @@
+{
+  "modifier.mythictinkers": {
+    "attractive": "#C80707",
+    "repulsive": "#002FFF",
+    "tectonic_shield": "#FF7221",
+    "polymer_plated": "#D5E1E0",
+    "desolate": "#523E4B",
+    "dark_arrows": "#151515",
+    "dreadshot": "#620303",
+    "tesseracted": "#9C0797",
+    "terraforming": "#DB3809",
+    "aeroforming": "#DB3809",
+    "terraformidable": "#DB3809",
+    "radioactive": "#307D11",
+    "half_life": "#307D11",
+    "glamorous": "#F9A21E",
+    "vengeful_strike": "#5DFFFA",
+    "vengeful_shot": "#5DFFFA",
+    "retribution": "#5DFFFA",
+    "gumbreakable": "#F258D4",
+    "byzantium_neodymium_boon": "#9C0797",
+    "tectellus_boon": "#DB3809",
+    "element_122_boon": "#307D11",
+    "aurichalcum_boon": "#F9A21E",
+    "prosprum_boon": "#5DFFFA",
+    "gumbronze_boon": "#F258D4"
+  },
+
+  "material.mythictinkers": {
+    "scarlet_neodymium": "#C80707",
+    "azure_neodymium": "#002FFF",
+    "desolum": "#523E4B",
+    "shadow_silk": "#151515",
+    "byzantium_neodymium": "#9C0797",
+    "tectellus": "#DB3809",
+    "element_122": "#307D11",
+    "aurichalcum": "#F9A21E",
+    "prosprum": "#5DFFFA",
+    "gumbronze": "#F258D4"
+  },
+
+  "stat.tconstruct.slot": {
+    "boons": "#FFB23D"
+  }
+}

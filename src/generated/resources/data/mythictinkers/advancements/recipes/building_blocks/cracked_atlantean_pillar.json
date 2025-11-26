@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_atlantean_pillar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythictinkers:atlantean_pillar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mythictinkers:cracked_atlantean_pillar"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_atlantean_pillar",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mythictinkers:cracked_atlantean_pillar"
+    ]
+  },
+  "sends_telemetry_event": false
+}

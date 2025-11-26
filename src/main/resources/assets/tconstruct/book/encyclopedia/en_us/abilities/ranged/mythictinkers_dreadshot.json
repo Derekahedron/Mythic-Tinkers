@@ -1,0 +1,13 @@
+{
+  "modifier_id": "mythictinkers:dreadshot",
+  "text": [
+    {
+      "text": "Your bow rains arrows down on your target."
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 1 level",
+    "Requires 1 ability slot"
+  ]
+}

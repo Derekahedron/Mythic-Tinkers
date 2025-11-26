@@ -1,0 +1,12 @@
+intro=Introduction
+
+styx=Styx
+
+melee_harvest_materials=Tier ? General Materials
+melee_harvest_materials.subtext=These materials are smelted down using Styx as fuel then casted into tool parts for melee weapons or harvest tools.
+ranged_materials=Tier ? Ranged Materials
+ranged_materials.subtext=These materials are smelted down using Styx as fuel then casted into tool parts for ranged weapons like bows.
+armor_materials=Tier ? Armor Materials
+armor_materials.subtext=These materials are smelted down using Styx as fuel then casted into armor and shields.
+
+boons=Boons

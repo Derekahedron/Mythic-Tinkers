@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": {
+      "item": "alexscaves:galena"
+    },
+    "N": {
+      "item": "mythictinkers:raw_byzantium_neodymium"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GNG",
+    "GGG"
+  ],
+  "result": {
+    "count": 8,
+    "item": "mythictinkers:byzantium_energized_galena"
+  },
+  "show_notification": true
+}

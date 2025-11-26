@@ -1,0 +1,13 @@
+{
+  "tag": "mythictinkers:gum_tooltips",
+  "units": [
+    {
+      "key": "gui.mythictinkers.fluid.block",
+      "needed": 1000
+    },
+    {
+      "key": "gui.mythictinkers.fluid.wad",
+      "needed": 250
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 1000,
+      "fluid": "mythictinkers:liquid_earthen_gum"
+    },
+    {
+      "amount": 90,
+      "tag": "forge:molten_amethyst_bronze"
+    }
+  ],
+  "result": {
+    "amount": 90,
+    "fluid": "mythictinkers:molten_gumbronze"
+  },
+  "temperature": 1800
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/prosprum"
+  },
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_prosprum"
+  },
+  "temperature": 1777,
+  "time": 87
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:storage_blocks/aurichalcum"
+  },
+  "leftover": {
+    "count": 1,
+    "tag": "forge:ingots/aurichalcum"
+  },
+  "material": "mythictinkers:aurichalcum",
+  "needed": 1,
+  "value": 9
+}

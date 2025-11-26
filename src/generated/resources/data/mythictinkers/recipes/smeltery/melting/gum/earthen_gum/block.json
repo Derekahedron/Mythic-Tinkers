@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "mythictinkers:earthen_gum_block"
+  },
+  "result": {
+    "amount": 1000,
+    "fluid": "mythictinkers:liquid_earthen_gum"
+  },
+  "temperature": 0,
+  "time": 56
+}

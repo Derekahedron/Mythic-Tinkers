@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mythictinkers:block/cracked_atlantean_pillar_top",
+    "side": "mythictinkers:block/cracked_atlantean_pillar"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Stygian Deepslate",
+  "item": "mythictinkers:stygian_deepslate",
+  "text": [
+    {
+      "text": "You can find Styx by mining \"Stygian Deepslate\", which generates in the bedrock of Deep Dark biomes.",
+      "paragraph": true
+    },
+    {
+      "text": "When you mine Stygian Deepslate, Styx will immediately flow out, so be careful.",
+      "paragraph": true
+    },
+    {
+      "text": "Make sure you have a bucket on you to pick it up immediately. Flowing Styx will evaporate over time, so you can't leave and come back.",
+      "paragraph": true
+    }
+  ]
+}

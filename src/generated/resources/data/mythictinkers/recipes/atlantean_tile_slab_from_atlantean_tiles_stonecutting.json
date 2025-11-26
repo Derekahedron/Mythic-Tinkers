@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "mythictinkers:atlantean_tiles"
+  },
+  "result": "mythictinkers:atlantean_tile_slab"
+}

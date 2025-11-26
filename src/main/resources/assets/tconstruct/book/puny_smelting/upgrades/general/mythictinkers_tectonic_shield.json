@@ -1,0 +1,13 @@
+{
+  "modifier_id": "mythictinkers:tectonic_shield",
+  "text": [
+    {
+      "text": "The ghosts of extinct dinosaurs help prevent you from suffering the same fate."
+    }
+  ],
+  "effects": [
+    "Using your tool adds dino spirits around you which protect you from damage",
+    "Multiple levels, adds an additional dino spirit with each level",
+    "Requires 1 upgrade slot per level"
+  ]
+}

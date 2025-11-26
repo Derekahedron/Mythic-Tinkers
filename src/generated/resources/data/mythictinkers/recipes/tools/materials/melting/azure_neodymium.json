@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "mythictinkers:azure_neodymium",
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_azure_neodymium"
+  },
+  "temperature": 800
+}

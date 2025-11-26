@@ -1,0 +1,14 @@
+{
+  "asset_name": "mythictinkers_prosprum",
+  "description": {
+    "color": "#5DFFFA",
+    "translate": "trim_material.tconstruct.format",
+    "with": [
+      {
+        "translate": "material.mythictinkers.prosprum"
+      }
+    ]
+  },
+  "ingredient": "mythictinkers:prosprum_ingot",
+  "item_model_index": 0.8
+}

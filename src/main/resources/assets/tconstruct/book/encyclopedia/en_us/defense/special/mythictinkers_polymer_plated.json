@@ -1,0 +1,13 @@
+{
+  "modifier_id": "mythictinkers:polymer_plated",
+  "text": [
+    {
+      "text": "Gives a 25% chance your won't be made irradiated per level."
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 1 level per piece",
+    "Requires 1 defense slot"
+  ]
+}

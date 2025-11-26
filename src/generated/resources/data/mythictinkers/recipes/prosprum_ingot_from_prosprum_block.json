@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "prosprum_ingot",
+  "ingredients": [
+    {
+      "item": "mythictinkers:prosprum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "mythictinkers:prosprum_ingot"
+  }
+}

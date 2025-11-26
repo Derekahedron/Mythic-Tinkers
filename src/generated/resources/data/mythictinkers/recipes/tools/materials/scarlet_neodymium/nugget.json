@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:nuggets/scarlet_neodymium"
+  },
+  "material": "mythictinkers:scarlet_neodymium",
+  "needed": 9,
+  "value": 1
+}

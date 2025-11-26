@@ -1,0 +1,38 @@
+{
+  "parent": "mythictinkers:mythictinkers/root",
+  "criteria": {
+    "get_dombstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythictinkers:dombstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.mine_dombstone.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:dombstone"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.mine_dombstone.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_dombstone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

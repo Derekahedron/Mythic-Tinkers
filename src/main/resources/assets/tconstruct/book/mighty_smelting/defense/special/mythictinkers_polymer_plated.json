@@ -1,0 +1,14 @@
+{
+  "modifier_id": "mythictinkers:polymer_plated",
+  "text": [
+    {
+      "text": "Safer than a refrigerator."
+    }
+  ],
+  "effects": [
+    "Gives a chance of preventing you from becoming irradiated",
+    "25% chance per armor piece worn",
+    "Single level",
+    "Requires 1 defense slot"
+  ]
+}

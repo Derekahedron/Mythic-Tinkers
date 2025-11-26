@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "mythictinkers:tectellus",
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_tectellus"
+  },
+  "temperature": 2000
+}

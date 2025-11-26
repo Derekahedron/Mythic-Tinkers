@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:directory",
+      "prefix": "fluid/",
+      "source": "fluid"
+    },
+    {
+      "type": "minecraft:directory",
+      "prefix": "gui/modifiers/",
+      "source": "gui/modifiers"
+    },
+    {
+      "type": "minecraft:directory",
+      "prefix": "gui/tinker_pattern/",
+      "source": "gui/tinker_pattern"
+    },
+    {
+      "type": "minecraft:paletted_permutations",
+      "palette_key": "minecraft:trims/color_palettes/trim_palette",
+      "permutations": {
+        "mythictinkers_scarlet_neodymium": "mythictinkers:trims/color_palettes/scarlet_neodymium",
+        "mythictinkers_azure_neodymium": "mythictinkers:trims/color_palettes/azure_neodymium",
+        "mythictinkers_desolum": "mythictinkers:trims/color_palettes/desolum",
+        "mythictinkers_byzantium_neodymium": "mythictinkers:trims/color_palettes/byzantium_neodymium",
+        "mythictinkers_tectellus": "mythictinkers:trims/color_palettes/tectellus",
+        "mythictinkers_element_122": "mythictinkers:trims/color_palettes/element_122",
+        "mythictinkers_aurichalcum": "mythictinkers:trims/color_palettes/aurichalcum",
+        "mythictinkers_prosprum": "mythictinkers:trims/color_palettes/prosprum",
+        "mythictinkers_gumbronze": "mythictinkers:trims/color_palettes/gumbronze"
+      },
+      "textures": [
+        "minecraft:trims/items/helmet_trim",
+        "minecraft:trims/items/chestplate_trim",
+        "minecraft:trims/items/leggings_trim",
+        "minecraft:trims/items/boots_trim"
+      ]
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:trims/items/helmet_trim"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:trims/items/chestplate_trim"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:trims/items/leggings_trim"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:trims/items/boots_trim"
+    }
+  ]
+}

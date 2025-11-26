@@ -1,0 +1,19 @@
+{
+  "values": [
+    "tconstruct:iron",
+    "tconstruct:slimesteel",
+    "tconstruct:pig_iron",
+    "tconstruct:cobalt",
+    "tconstruct:manyullyn",
+    "tconstruct:hepatizon",
+    "tconstruct:queens_slime",
+    {
+      "id": "tconstruct:steel",
+      "required": false
+    },
+    {
+      "id": "tconstruct:invar",
+      "required": false
+    }
+  ]
+}

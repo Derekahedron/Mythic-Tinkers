@@ -1,0 +1,25 @@
+{
+  "type": "alexscaves:magnetic_node",
+  "config": {
+    "node": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "mythictinkers:byzantium_neodymium_node",
+        "Properties": {
+          "facing": "up",
+          "waterlogged": "false"
+        }
+      }
+    },
+    "pillar": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "mythictinkers:byzantium_neodymium_pillar",
+        "Properties": {
+          "facing": "up",
+          "top": "true"
+        }
+      }
+    }
+  }
+}

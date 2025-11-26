@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "alexscaves:energized_galena_azure"
+  },
+  "result": {
+    "amount": 5,
+    "fluid": "mythictinkers:molten_azure_neodymium"
+  },
+  "temperature": 800,
+  "time": 4
+}

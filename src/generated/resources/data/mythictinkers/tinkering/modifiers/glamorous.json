@@ -1,0 +1,13 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "modules": [
+    {
+      "type": "mythictinkers:leveling_modifier_slot",
+      "count": {
+        "flat": 2
+      },
+      "name": "boons"
+    }
+  ],
+  "tooltip_display": "always"
+}

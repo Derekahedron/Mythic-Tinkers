@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#mythictinkers:element_122_ore_generates_in",
+  "features": "mythictinkers:element_122_ore",
+  "step": "underground_ores"
+}

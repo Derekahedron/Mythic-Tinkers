@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#mythictinkers:earthen_gum_ore_generates_in",
+  "features": "mythictinkers:earthen_gum_ore",
+  "step": "underground_ores"
+}

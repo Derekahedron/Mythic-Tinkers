@@ -1,0 +1,40 @@
+{
+  "parent": "mythictinkers:mythictinkers/find_atlantean_ruins",
+  "criteria": {
+    "craft_aurichalcum_tool": {
+      "conditions": {
+        "items": [
+          {
+            "type": "tconstruct:tool_stack",
+            "predicate": {
+              "type": "tconstruct:has_material",
+              "material": "mythictinkers:aurichalcum"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.aurichalcum_tool.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:aurichalcum_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.aurichalcum_tool.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_aurichalcum_tool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

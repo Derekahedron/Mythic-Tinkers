@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:ingots/azure_neodymium"
+  },
+  "material": "mythictinkers:azure_neodymium",
+  "needed": 1,
+  "value": 1
+}

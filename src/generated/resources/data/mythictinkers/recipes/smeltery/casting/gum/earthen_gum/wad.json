@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_table",
+  "cooling_time": 47,
+  "fluid": {
+    "amount": 250,
+    "fluid": "mythictinkers:liquid_earthen_gum"
+  },
+  "result": "mythictinkers:earthen_gum_wad"
+}

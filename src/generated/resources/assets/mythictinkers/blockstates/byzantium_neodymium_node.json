@@ -1,0 +1,91 @@
+{
+  "variants": {
+    "facing=down": [
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_0",
+        "x": 180
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_1",
+        "x": 180
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_2",
+        "x": 180
+      }
+    ],
+    "facing=east": [
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_0",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_1",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_2",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "facing=north": [
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_0",
+        "x": 90
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_1",
+        "x": 90
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_2",
+        "x": 90
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_0",
+        "x": 270
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_1",
+        "x": 270
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_2",
+        "x": 270
+      }
+    ],
+    "facing=up": [
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_0"
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_1"
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_2"
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_0",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_1",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "mythictinkers:block/byzantium_neodymium_node_2",
+        "x": 90,
+        "y": 270
+      }
+    ]
+  }
+}

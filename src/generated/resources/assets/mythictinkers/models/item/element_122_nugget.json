@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mythictinkers:item/element_122_nugget"
+  }
+}

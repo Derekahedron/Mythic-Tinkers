@@ -1,0 +1,15 @@
+{
+  "modifier_id": "mythictinkers:dreadshot",
+  "text": [
+    {
+      "text": "You'll make them think the sky is falling."
+    }
+  ],
+  "effects": [
+    "Shoots multiple arrows down from the sky at your target",
+    "Only costs one arrow",
+    "More arrows are fired when dark arrows are used",
+    "Single level",
+    "Requires 1 ability slot"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/desolum"
+  },
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_desolum"
+  },
+  "temperature": 1366,
+  "time": 77
+}

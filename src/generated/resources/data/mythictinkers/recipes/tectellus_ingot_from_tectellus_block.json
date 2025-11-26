@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tectellus_ingot",
+  "ingredients": [
+    {
+      "item": "mythictinkers:tectellus_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "mythictinkers:tectellus_ingot"
+  }
+}

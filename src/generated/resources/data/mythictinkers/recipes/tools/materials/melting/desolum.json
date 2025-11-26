@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "mythictinkers:desolum",
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_desolum"
+  },
+  "temperature": 1366
+}

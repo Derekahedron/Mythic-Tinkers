@@ -1,0 +1,22 @@
+{
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "mythictinkers:retribution"
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "level": 1,
+        "name": "mythictinkers:vengeful_strike"
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "level": 1,
+        "name": "mythictinkers:vengeful_shot"
+      }
+    ]
+  }
+}

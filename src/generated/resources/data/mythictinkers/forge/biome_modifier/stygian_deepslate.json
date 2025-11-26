@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#mythictinkers:stygian_deepslate_generates_in",
+  "features": "mythictinkers:stygian_deepslate",
+  "step": "underground_ores"
+}

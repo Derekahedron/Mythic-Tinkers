@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "package": "derekahedron.mythictinkers.mixin",
+  "refmap": "mythictinkers.refmap.json",
+  "mixins": [
+    "AcidBlockMixin",
+    "BlockBehaviorMixin",
+    "ComposableModifierAccessor",
+    "DinosaurSpiritEntityMixin",
+    "EntityMixin",
+    "HazmatArmorItemMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "MagnetUtilMixin",
+    "NuclearExplosionEntityMixin",
+    "ProjectileInvoker",
+    "TremorzillaEntityMixin"
+  ],
+  "client": [
+    "client.LocalPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

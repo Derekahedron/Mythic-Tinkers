@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mythictinkers:block/cracked_atlantean_bricks"
+  }
+}

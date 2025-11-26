@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "mythictinkers:aurichalcum",
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_aurichalcum"
+  },
+  "temperature": 1550
+}

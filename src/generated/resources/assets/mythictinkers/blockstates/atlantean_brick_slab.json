@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mythictinkers:block/atlantean_brick_slab"
+    },
+    "type=double": {
+      "model": "mythictinkers:block/atlantean_bricks"
+    },
+    "type=top": {
+      "model": "mythictinkers:block/atlantean_brick_slab_top"
+    }
+  }
+}

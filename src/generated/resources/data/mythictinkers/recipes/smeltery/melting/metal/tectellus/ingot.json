@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/tectellus"
+  },
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_tectellus"
+  },
+  "temperature": 2000,
+  "time": 93
+}

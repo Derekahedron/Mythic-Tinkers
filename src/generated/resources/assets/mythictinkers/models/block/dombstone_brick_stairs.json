@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "mythictinkers:block/dombstone_bricks",
+    "side": "mythictinkers:block/dombstone_bricks",
+    "top": "mythictinkers:block/dombstone_bricks"
+  }
+}

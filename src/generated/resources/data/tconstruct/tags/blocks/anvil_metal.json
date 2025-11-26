@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#forge:storage_blocks/byzantium_neodymium",
+    "#forge:storage_blocks/tectellus",
+    "#forge:storage_blocks/element_122",
+    "#forge:storage_blocks/aurichalcum",
+    "#forge:storage_blocks/desolum",
+    "#forge:storage_blocks/prosprum",
+    "#forge:storage_blocks/gumbronze"
+  ]
+}

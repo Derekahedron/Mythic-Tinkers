@@ -1,0 +1,38 @@
+{
+  "parent": "mythictinkers:mythictinkers/root",
+  "criteria": {
+    "get_pure_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythictinkers:pure_light"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.mine_pure_light.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:pure_light"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.mine_pure_light.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_pure_light"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

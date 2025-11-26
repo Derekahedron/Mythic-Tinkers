@@ -1,0 +1,14 @@
+{
+  "asset_name": "mythictinkers_aurichalcum",
+  "description": {
+    "color": "#F9A21E",
+    "translate": "trim_material.tconstruct.format",
+    "with": [
+      {
+        "translate": "material.mythictinkers.aurichalcum"
+      }
+    ]
+  },
+  "ingredient": "mythictinkers:aurichalcum_ingot",
+  "item_model_index": 0.6
+}

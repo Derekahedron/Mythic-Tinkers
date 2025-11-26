@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/gumbronze"
+  },
+  "result": {
+    "amount": 10,
+    "tag": "forge:molten_gumbronze"
+  },
+  "temperature": 1800,
+  "time": 29
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "mythictinkers:element_122",
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_element_122"
+  },
+  "temperature": 1900
+}

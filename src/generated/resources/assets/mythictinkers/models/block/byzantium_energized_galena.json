@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mythictinkers:block/byzantium_energized_galena_top",
+    "side": "mythictinkers:block/byzantium_energized_galena"
+  }
+}

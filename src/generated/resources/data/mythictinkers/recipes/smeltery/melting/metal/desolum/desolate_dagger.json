@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "alexscaves:desolate_dagger"
+  },
+  "result": {
+    "amount": 180,
+    "fluid": "mythictinkers:molten_desolum"
+  },
+  "temperature": 1366,
+  "time": 77
+}

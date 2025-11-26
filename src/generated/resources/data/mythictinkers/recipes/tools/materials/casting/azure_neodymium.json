@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "amount": 90,
+    "tag": "forge:molten_azure_neodymium"
+  },
+  "output": "mythictinkers:azure_neodymium",
+  "temperature": 800
+}

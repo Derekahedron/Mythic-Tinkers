@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mythictinkers:block/stygian_deepslate_top",
+    "side": "mythictinkers:block/stygian_deepslate"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "desolum_ingot",
+  "ingredients": [
+    {
+      "item": "mythictinkers:desolum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "mythictinkers:desolum_ingot"
+  }
+}

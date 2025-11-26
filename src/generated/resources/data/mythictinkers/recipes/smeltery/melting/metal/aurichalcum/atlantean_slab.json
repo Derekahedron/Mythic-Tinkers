@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "mythictinkers:atlantean_brick_slab"
+    },
+    {
+      "item": "mythictinkers:atlantean_tile_slab"
+    }
+  ],
+  "result": {
+    "amount": 10,
+    "fluid": "mythictinkers:molten_aurichalcum"
+  },
+  "temperature": 1550,
+  "time": 27
+}

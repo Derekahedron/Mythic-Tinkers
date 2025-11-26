@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "gumbronze_ingot",
+  "key": {
+    "#": {
+      "item": "mythictinkers:gumbronze_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "mythictinkers:gumbronze_ingot"
+  },
+  "show_notification": true
+}

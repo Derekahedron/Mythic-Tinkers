@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/desolum"
+  },
+  "result": {
+    "amount": 810,
+    "tag": "forge:molten_desolum"
+  },
+  "temperature": 1366,
+  "time": 230
+}

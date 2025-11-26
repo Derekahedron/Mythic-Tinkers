@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "mythictinkers:block/imprisoning_coprolith_0"
+      },
+      {
+        "model": "mythictinkers:block/imprisoning_coprolith_1"
+      }
+    ]
+  }
+}

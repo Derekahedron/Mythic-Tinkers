@@ -1,0 +1,14 @@
+{
+  "asset_name": "mythictinkers_element_122",
+  "description": {
+    "color": "#307D11",
+    "translate": "trim_material.tconstruct.format",
+    "with": [
+      {
+        "translate": "material.mythictinkers.element_122"
+      }
+    ]
+  },
+  "ingredient": "mythictinkers:element_122_ingot",
+  "item_model_index": 0.7
+}

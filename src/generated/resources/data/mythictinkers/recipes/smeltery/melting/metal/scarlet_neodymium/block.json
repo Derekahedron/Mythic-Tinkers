@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/scarlet_neodymium"
+  },
+  "result": {
+    "amount": 810,
+    "tag": "forge:molten_scarlet_neodymium"
+  },
+  "temperature": 800,
+  "time": 180
+}

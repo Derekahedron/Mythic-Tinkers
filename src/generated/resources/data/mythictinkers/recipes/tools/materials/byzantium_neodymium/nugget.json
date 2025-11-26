@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:nuggets/byzantium_neodymium"
+  },
+  "material": "mythictinkers:byzantium_neodymium",
+  "needed": 9,
+  "value": 1
+}

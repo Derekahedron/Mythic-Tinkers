@@ -1,0 +1,17 @@
+[
+  {
+    "name": "styx",
+    "type": "mantle:showcase",
+    "data": "styx/styx.json"
+  },
+  {
+    "name": "stygian_deepslate",
+    "type": "mantle:showcase",
+    "data": "styx/stygian_deepslate.json"
+  },
+  {
+    "name": "dombstone",
+    "type": "mantle:showcase",
+    "data": "styx/dombstone.json"
+  }
+ ]

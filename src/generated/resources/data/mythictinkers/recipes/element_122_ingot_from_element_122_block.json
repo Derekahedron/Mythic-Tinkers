@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "element_122_ingot",
+  "ingredients": [
+    {
+      "item": "mythictinkers:element_122_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "mythictinkers:element_122_ingot"
+  }
+}

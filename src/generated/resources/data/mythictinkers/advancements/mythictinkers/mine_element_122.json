@@ -1,0 +1,38 @@
+{
+  "parent": "mythictinkers:mythictinkers/root",
+  "criteria": {
+    "get_raw_element_122": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythictinkers:raw_element_122"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.mine_element_122.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:raw_element_122"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.mine_element_122.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_raw_element_122"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

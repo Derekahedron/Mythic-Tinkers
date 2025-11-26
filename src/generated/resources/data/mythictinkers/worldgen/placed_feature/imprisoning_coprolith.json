@@ -1,0 +1,32 @@
+{
+  "feature": "mythictinkers:imprisoning_coprolith",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "absolute": 32
+        },
+        "min_inclusive": {
+          "above_bottom": -32
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_relative_threshold_filter",
+      "heightmap": "OCEAN_FLOOR_WG",
+      "max_inclusive": -10
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "alexscaves:energized_galena_neutral"
+  },
+  "result": {
+    "amount": 5,
+    "fluid": "tconstruct:molten_iron"
+  },
+  "temperature": 800,
+  "time": 4
+}

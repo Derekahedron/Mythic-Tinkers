@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "N": {
+      "item": "mythictinkers:raw_byzantium_neodymium"
+    }
+  },
+  "pattern": [
+    "NN",
+    "NN",
+    "NN"
+  ],
+  "result": {
+    "count": 2,
+    "item": "mythictinkers:byzantium_neodymium_pillar"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,41 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "mythictinkers:atlantean_bricks"
+    },
+    {
+      "item": "mythictinkers:cracked_atlantean_bricks"
+    },
+    {
+      "item": "mythictinkers:atlantean_brick_stairs"
+    },
+    {
+      "item": "mythictinkers:atlantean_brick_wall"
+    },
+    {
+      "item": "mythictinkers:atlantean_tiles"
+    },
+    {
+      "item": "mythictinkers:cracked_atlantean_tiles"
+    },
+    {
+      "item": "mythictinkers:atlantean_tile_stairs"
+    },
+    {
+      "item": "mythictinkers:atlantean_tile_wall"
+    },
+    {
+      "item": "mythictinkers:atlantean_pillar"
+    },
+    {
+      "item": "mythictinkers:cracked_atlantean_pillar"
+    }
+  ],
+  "result": {
+    "amount": 20,
+    "fluid": "mythictinkers:molten_aurichalcum"
+  },
+  "temperature": 1550,
+  "time": 41
+}

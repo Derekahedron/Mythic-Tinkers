@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "mythictinkers:dombstone_bricks"
+  },
+  "result": "mythictinkers:dombstone_brick_wall"
+}

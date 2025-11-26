@@ -1,0 +1,30 @@
+{
+  "type": "mythictinkers:boon_modifier",
+  "allow_crystal": true,
+  "check_trait_level": true,
+  "inputs": [
+    {
+      "item": "mythictinkers:aurichalcum_ingot"
+    },
+    {
+      "item": "mythictinkers:aurichalcum_ingot"
+    },
+    {
+      "item": "mythictinkers:aurichalcum_ingot"
+    },
+    {
+      "item": "mythictinkers:aurichalcum_ingot"
+    },
+    {
+      "item": "mythictinkers:aurichalcum_ingot"
+    }
+  ],
+  "level": 1,
+  "result": "mythictinkers:aurichalcum_boon",
+  "slots": {
+    "boons": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  }
+}

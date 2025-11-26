@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "amount": 90,
+    "tag": "forge:molten_gumbronze"
+  },
+  "output": "mythictinkers:gumbronze",
+  "temperature": 1800
+}

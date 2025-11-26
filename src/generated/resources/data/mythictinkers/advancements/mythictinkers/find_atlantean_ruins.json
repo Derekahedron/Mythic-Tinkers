@@ -1,0 +1,42 @@
+{
+  "parent": "mythictinkers:mythictinkers/root",
+  "criteria": {
+    "atlantean_ruins": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mythictinkers:atlantean_ruins"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.find_atlantean_ruins.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:atlantean_bricks"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.find_atlantean_ruins.title"
+    }
+  },
+  "requirements": [
+    [
+      "atlantean_ruins"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

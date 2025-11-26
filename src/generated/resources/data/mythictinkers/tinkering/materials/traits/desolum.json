@@ -1,0 +1,22 @@
+{
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "mythictinkers:darkness_protection"
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "level": 1,
+        "name": "mythictinkers:desolate"
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "level": 1,
+        "name": "mythictinkers:desolate"
+      }
+    ]
+  }
+}

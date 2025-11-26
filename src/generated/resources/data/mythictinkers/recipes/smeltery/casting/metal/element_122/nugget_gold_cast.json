@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/nugget"
+  },
+  "cooling_time": 30,
+  "fluid": {
+    "amount": 10,
+    "tag": "forge:molten_element_122"
+  },
+  "result": {
+    "tag": "forge:nuggets/element_122"
+  }
+}

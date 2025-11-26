@@ -1,0 +1,12 @@
+{
+  "mythictinkers:tectonic_shield": ["alexscaves:item/tectonic_shard", "tconstruct:gui/modifiers/book"],
+  "mythictinkers:polymer_plated": ["alexscaves:item/polymer_plate", "tconstruct:gui/modifiers/book"],
+  "mythictinkers:dreadshot": ["alexscaves:item/pure_darkness", "tconstruct:gui/modifiers/book"],
+
+  "mythictinkers:byzantium_neodymium_boon": ["mythictinkers:item/byzantium_neodymium_ingot", "mythictinkers:gui/modifiers/boon"],
+  "mythictinkers:tectellus_boon": ["mythictinkers:item/tectellus_ingot", "mythictinkers:gui/modifiers/boon"],
+  "mythictinkers:element_122_boon": ["mythictinkers:item/element_122_ingot", "mythictinkers:gui/modifiers/boon"],
+  "mythictinkers:aurichalcum_boon": ["mythictinkers:item/aurichalcum_ingot", "mythictinkers:gui/modifiers/boon"],
+  "mythictinkers:prosprum_boon": ["mythictinkers:item/prosprum_ingot", "mythictinkers:gui/modifiers/boon"],
+  "mythictinkers:gumbronze_boon": ["mythictinkers:item/gumbronze_ingot", "mythictinkers:gui/modifiers/boon"]
+}

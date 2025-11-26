@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "mythictinkers:block/byzantium_neodymium_pillar_bottom",
+    "side": "mythictinkers:block/byzantium_neodymium_pillar_side",
+    "top": "mythictinkers:block/byzantium_neodymium_pillar_top"
+  }
+}

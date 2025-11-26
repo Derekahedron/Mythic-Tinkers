@@ -1,0 +1,38 @@
+{
+  "parent": "mythictinkers:mythictinkers/mine_pure_light",
+  "criteria": {
+    "get_prosprum_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythictinkers:prosprum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.purify_desolum.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:prosprum_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.purify_desolum.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_prosprum_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

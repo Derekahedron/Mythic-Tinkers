@@ -1,0 +1,14 @@
+{
+  "title": "Dombstone",
+  "item": "mythictinkers:dombstone",
+  "text": [
+    {
+      "text": "When Styx interacts with other fluids like water and lava, it transforms into a rock-like material called \"Dombstone\".",
+      "paragraph": true
+    },
+    {
+      "text": "This material seems to have no use besides decoration. It can also be made into bricks.",
+      "paragraph": true
+    }
+  ]
+}

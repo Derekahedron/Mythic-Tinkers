@@ -1,0 +1,40 @@
+{
+  "parent": "mythictinkers:mythictinkers/purify_desolum",
+  "criteria": {
+    "craft_prosprum_tool": {
+      "conditions": {
+        "items": [
+          {
+            "type": "tconstruct:tool_stack",
+            "predicate": {
+              "type": "tconstruct:has_material",
+              "material": "mythictinkers:prosprum"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.prosprum_tool.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:prosprum_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.prosprum_tool.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_prosprum_tool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

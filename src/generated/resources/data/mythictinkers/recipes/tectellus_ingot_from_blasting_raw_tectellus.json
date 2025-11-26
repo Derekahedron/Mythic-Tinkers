@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 2.0,
+  "group": "tectellus_ingot",
+  "ingredient": {
+    "item": "mythictinkers:raw_tectellus"
+  },
+  "result": "mythictinkers:tectellus_ingot"
+}

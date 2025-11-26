@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "mythictinkers:prosprum",
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_prosprum"
+  },
+  "temperature": 1777
+}

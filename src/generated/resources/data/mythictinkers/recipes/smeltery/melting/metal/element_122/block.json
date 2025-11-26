@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/element_122"
+  },
+  "result": {
+    "amount": 810,
+    "tag": "forge:molten_element_122"
+  },
+  "temperature": 1900,
+  "time": 271
+}

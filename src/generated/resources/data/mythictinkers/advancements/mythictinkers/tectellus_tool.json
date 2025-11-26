@@ -1,0 +1,40 @@
+{
+  "parent": "mythictinkers:mythictinkers/mine_tectellus",
+  "criteria": {
+    "craft_tectellus_tool": {
+      "conditions": {
+        "items": [
+          {
+            "type": "tconstruct:tool_stack",
+            "predicate": {
+              "type": "tconstruct:has_material",
+              "material": "mythictinkers:tectellus"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.tectellus_tool.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:tectellus_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.tectellus_tool.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_tectellus_tool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

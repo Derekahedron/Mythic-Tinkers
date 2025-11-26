@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "mythictinkers:byzantium_energized_galena"
+  },
+  "result": {
+    "amount": 5,
+    "fluid": "mythictinkers:molten_byzantium_neodymium"
+  },
+  "temperature": 1715,
+  "time": 6
+}

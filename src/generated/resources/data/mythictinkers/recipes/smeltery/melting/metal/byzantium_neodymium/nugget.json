@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/byzantium_neodymium"
+  },
+  "result": {
+    "amount": 10,
+    "tag": "forge:molten_byzantium_neodymium"
+  },
+  "temperature": 1715,
+  "time": 29
+}

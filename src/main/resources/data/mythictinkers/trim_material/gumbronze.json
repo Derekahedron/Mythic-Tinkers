@@ -1,0 +1,14 @@
+{
+  "asset_name": "mythictinkers_gumbronze",
+  "description": {
+    "color": "#F258D4",
+    "translate": "trim_material.tconstruct.format",
+    "with": [
+      {
+        "translate": "material.mythictinkers.gumbronze"
+      }
+    ]
+  },
+  "ingredient": "mythictinkers:gumbronze_ingot",
+  "item_model_index": 1.0
+}

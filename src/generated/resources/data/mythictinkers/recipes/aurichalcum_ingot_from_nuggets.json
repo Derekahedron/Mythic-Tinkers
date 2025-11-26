@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "aurichalcum_ingot",
+  "key": {
+    "#": {
+      "item": "mythictinkers:aurichalcum_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "mythictinkers:aurichalcum_ingot"
+  },
+  "show_notification": true
+}

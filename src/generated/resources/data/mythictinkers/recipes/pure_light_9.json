@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "pure_light",
+  "ingredients": [
+    {
+      "item": "mythictinkers:pure_light"
+    },
+    [
+      {
+        "item": "mythictinkers:pure_light"
+      },
+      {
+        "item": "alexscaves:pure_darkness"
+      }
+    ],
+    [
+      {
+        "item": "mythictinkers:pure_light"
+      },
+      {
+        "item": "alexscaves:pure_darkness"
+      }
+    ],
+    [
+      {
+        "item": "mythictinkers:pure_light"
+      },
+      {
+        "item": "alexscaves:pure_darkness"
+      }
+    ],
+    [
+      {
+        "item": "mythictinkers:pure_light"
+      },
+      {
+        "item": "alexscaves:pure_darkness"
+      }
+    ],
+    [
+      {
+        "item": "mythictinkers:pure_light"
+      },
+      {
+        "item": "alexscaves:pure_darkness"
+      }
+    ],
+    [
+      {
+        "item": "mythictinkers:pure_light"
+      },
+      {
+        "item": "alexscaves:pure_darkness"
+      }
+    ],
+    [
+      {
+        "item": "mythictinkers:pure_light"
+      },
+      {
+        "item": "alexscaves:pure_darkness"
+      }
+    ],
+    {
+      "item": "alexscaves:pure_darkness"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "mythictinkers:pure_light"
+  }
+}

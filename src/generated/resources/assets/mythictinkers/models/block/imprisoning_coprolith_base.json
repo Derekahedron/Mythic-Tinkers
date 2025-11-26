@@ -1,0 +1,182 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#outside"
+        },
+        "east": {
+          "texture": "#outside"
+        },
+        "north": {
+          "texture": "#outside"
+        },
+        "south": {
+          "texture": "#outside"
+        },
+        "up": {
+          "rotation": 90,
+          "texture": "#outside"
+        },
+        "west": {
+          "texture": "#outside"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "forge_data": {
+            "block_light": 15
+          },
+          "texture": "#inside"
+        },
+        "east": {
+          "forge_data": {
+            "block_light": 15
+          },
+          "texture": "#inside"
+        },
+        "north": {
+          "forge_data": {
+            "block_light": 15
+          },
+          "texture": "#inside"
+        },
+        "south": {
+          "forge_data": {
+            "block_light": 15
+          },
+          "texture": "#inside"
+        },
+        "up": {
+          "forge_data": {
+            "block_light": 15
+          },
+          "texture": "#inside"
+        },
+        "west": {
+          "forge_data": {
+            "block_light": 15
+          },
+          "texture": "#inside"
+        }
+      },
+      "from": [
+        15.99,
+        15.99,
+        15.99
+      ],
+      "shade": false,
+      "to": [
+        0.01,
+        0.01,
+        0.01
+      ]
+    },
+    {
+      "faces": {
+        "east": {
+          "cullface": "east",
+          "forge_data": {
+            "block_light": 15
+          },
+          "texture": "#eyes"
+        },
+        "west": {
+          "cullface": "west",
+          "forge_data": {
+            "block_light": 15
+          },
+          "texture": "#eyes"
+        }
+      },
+      "from": [
+        1,
+        0,
+        0
+      ],
+      "shade": false,
+      "to": [
+        15,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "forge_data": {
+            "block_light": 15
+          },
+          "texture": "#eyes"
+        },
+        "up": {
+          "cullface": "up",
+          "forge_data": {
+            "block_light": 15
+          },
+          "rotation": 90,
+          "texture": "#eyes"
+        }
+      },
+      "from": [
+        0,
+        1,
+        0
+      ],
+      "shade": false,
+      "to": [
+        16,
+        15,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "cullface": "north",
+          "forge_data": {
+            "block_light": 15
+          },
+          "texture": "#eyes"
+        },
+        "south": {
+          "cullface": "south",
+          "forge_data": {
+            "block_light": 15
+          },
+          "texture": "#eyes"
+        }
+      },
+      "from": [
+        0,
+        0,
+        1
+      ],
+      "shade": false,
+      "to": [
+        16,
+        16,
+        15
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "#outside"
+  }
+}

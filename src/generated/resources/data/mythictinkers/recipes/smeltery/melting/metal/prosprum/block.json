@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/prosprum"
+  },
+  "result": {
+    "amount": 810,
+    "tag": "forge:molten_prosprum"
+  },
+  "temperature": 1777,
+  "time": 262
+}

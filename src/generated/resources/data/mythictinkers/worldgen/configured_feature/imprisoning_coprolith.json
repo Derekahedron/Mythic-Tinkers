@@ -1,0 +1,18 @@
+{
+  "type": "mythictinkers:replace_unexposed_block",
+  "config": {
+    "targets": [
+      {
+        "state": {
+          "Name": "mythictinkers:imprisoning_coprolith"
+        },
+        "target": {
+          "block_state": {
+            "Name": "alexscaves:coprolith"
+          },
+          "predicate_type": "minecraft:blockstate_match"
+        }
+      }
+    ]
+  }
+}

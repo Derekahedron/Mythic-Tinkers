@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 3.0,
+  "group": "element_122_ingot",
+  "ingredient": {
+    "item": "mythictinkers:element_122_ore"
+  },
+  "result": "mythictinkers:element_122_ingot"
+}

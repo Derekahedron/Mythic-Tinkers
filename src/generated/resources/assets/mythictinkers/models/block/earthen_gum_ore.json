@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mythictinkers:block/earthen_gum_ore_top",
+    "side": "mythictinkers:block/earthen_gum_ore"
+  }
+}

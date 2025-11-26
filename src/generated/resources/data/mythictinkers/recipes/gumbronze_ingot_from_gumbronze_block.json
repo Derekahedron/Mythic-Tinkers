@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gumbronze_ingot",
+  "ingredients": [
+    {
+      "item": "mythictinkers:gumbronze_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "mythictinkers:gumbronze_ingot"
+  }
+}

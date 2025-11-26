@@ -1,0 +1,14 @@
+{
+  "asset_name": "mythictinkers_tectellus",
+  "description": {
+    "color": "#DB3809",
+    "translate": "trim_material.tconstruct.format",
+    "with": [
+      {
+        "translate": "material.mythictinkers.tectellus"
+      }
+    ]
+  },
+  "ingredient": "mythictinkers:tectellus_ingot",
+  "item_model_index": 0.4
+}

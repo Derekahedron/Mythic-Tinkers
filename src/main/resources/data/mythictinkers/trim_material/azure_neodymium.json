@@ -1,0 +1,14 @@
+{
+  "asset_name": "mythictinkers_azure_neodymium",
+  "description": {
+    "color": "#002FFF",
+    "translate": "trim_material.tconstruct.format",
+    "with": [
+      {
+        "translate": "material.mythictinkers.azure_neodymium"
+      }
+    ]
+  },
+  "ingredient": "alexscaves:azure_neodymium_ingot",
+  "item_model_index": 0.9
+}

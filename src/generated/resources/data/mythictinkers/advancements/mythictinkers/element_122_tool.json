@@ -1,0 +1,40 @@
+{
+  "parent": "mythictinkers:mythictinkers/mine_element_122",
+  "criteria": {
+    "craft_element_122_tool": {
+      "conditions": {
+        "items": [
+          {
+            "type": "tconstruct:tool_stack",
+            "predicate": {
+              "type": "tconstruct:has_material",
+              "material": "mythictinkers:element_122"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.element_122_tool.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:element_122_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.element_122_tool.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_element_122_tool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

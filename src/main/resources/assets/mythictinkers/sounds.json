@@ -1,0 +1,116 @@
+{
+  "block.molten_aurichalcum.ambient": {
+    "sounds": [
+      "minecraft:liquid/lava"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_aurichalcum.ambient"
+  },
+  "block.molten_aurichalcum.pop": {
+    "sounds": [
+      "minecraft:liquid/lavapop"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_aurichalcum.ambient"
+  },
+  "block.molten_azure_neodymium.ambient": {
+    "sounds": [
+      "minecraft:liquid/lava"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_azure_neodymium.ambient"
+  },
+  "block.molten_azure_neodymium.pop": {
+    "sounds": [
+      "minecraft:liquid/lavapop"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_azure_neodymium.ambient"
+  },
+  "block.molten_byzantium_neodymium.ambient": {
+    "sounds": [
+      "minecraft:liquid/lava"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_byzantium_neodymium.ambient"
+  },
+  "block.molten_byzantium_neodymium.pop": {
+    "sounds": [
+      "minecraft:liquid/lavapop"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_byzantium_neodymium.ambient"
+  },
+  "block.molten_desolum.ambient": {
+    "sounds": [
+      "minecraft:liquid/lava"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_desolum.ambient"
+  },
+  "block.molten_desolum.pop": {
+    "sounds": [
+      "minecraft:liquid/lavapop"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_desolum.ambient"
+  },
+  "block.molten_element_122.ambient": {
+    "sounds": [
+      "minecraft:liquid/lava"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_element_122.ambient"
+  },
+  "block.molten_element_122.pop": {
+    "sounds": [
+      "minecraft:liquid/lavapop"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_element_122.ambient"
+  },
+  "block.molten_gumbronze.ambient": {
+    "sounds": [
+      "minecraft:liquid/lava"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_gumbronze.ambient"
+  },
+  "block.molten_gumbronze.pop": {
+    "sounds": [
+      "minecraft:liquid/lavapop"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_gumbronze.ambient"
+  },
+  "block.molten_prosprum.ambient": {
+    "sounds": [
+      "minecraft:liquid/lava"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_prosprum.ambient"
+  },
+  "block.molten_prosprum.pop": {
+    "sounds": [
+      "minecraft:liquid/lavapop"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_prosprum.ambient"
+  },
+  "block.molten_scarlet_neodymium.ambient": {
+    "sounds": [
+      "minecraft:liquid/lava"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_scarlet_neodymium.ambient"
+  },
+  "block.molten_scarlet_neodymium.pop": {
+    "sounds": [
+      "minecraft:liquid/lavapop"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_scarlet_neodymium.ambient"
+  },
+  "block.molten_tectellus.ambient": {
+    "sounds": [
+      "minecraft:liquid/lava"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_tectellus.ambient"
+  },
+  "block.molten_tectellus.pop": {
+    "sounds": [
+      "minecraft:liquid/lavapop"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.molten_tectellus.ambient"
+  },
+  "block.styx.extinguish": {
+    "sounds": [
+      "minecraft:random/fizz"
+    ],
+    "subtitle": "subtitles.mythictinkers.block.styx.extinguish"
+  }
+}

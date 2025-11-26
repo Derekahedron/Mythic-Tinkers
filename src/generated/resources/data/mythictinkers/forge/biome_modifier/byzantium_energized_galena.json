@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#mythictinkers:byzantium_energized_galena_generates_in",
+  "features": "mythictinkers:byzantium_energized_galena",
+  "step": "underground_ores"
+}

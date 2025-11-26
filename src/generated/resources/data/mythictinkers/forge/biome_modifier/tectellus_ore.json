@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#mythictinkers:tectellus_ore_generates_in",
+  "features": "mythictinkers:tectellus_ore",
+  "step": "underground_ores"
+}

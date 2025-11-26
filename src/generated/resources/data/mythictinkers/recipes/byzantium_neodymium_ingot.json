@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "byzantium_neodymium_ingot",
+  "ingredients": [
+    {
+      "item": "mythictinkers:raw_byzantium_neodymium"
+    },
+    {
+      "item": "mythictinkers:raw_byzantium_neodymium"
+    },
+    {
+      "item": "mythictinkers:raw_byzantium_neodymium"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "result": {
+    "item": "mythictinkers:byzantium_neodymium_ingot"
+  }
+}

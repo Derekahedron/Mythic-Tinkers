@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gumbronze_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythictinkers:gumbronze_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mythictinkers:gumbronze_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_gumbronze_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mythictinkers:gumbronze_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Boons",
+  "modifiers": "mythictinkers:boons",
+  "text": [
+    {
+      "text": "Having Aurichalcum on your tool grants two \"Boon\" slots."
+    },
+    {
+      "text": "Using these give your tool the traits of other legendary materials.",
+      "paragraph": true
+    }
+  ],
+  "effects": [
+    "Gives your tool the traits of the applied material",
+    "Only for tier ? materials",
+    "Can only be applied once per material"
+  ]
+}

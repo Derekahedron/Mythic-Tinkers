@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "prosprum_ingot",
+  "ingredients": [
+    {
+      "item": "mythictinkers:pure_light"
+    },
+    {
+      "item": "mythictinkers:desolum_ingot"
+    }
+  ],
+  "result": {
+    "item": "mythictinkers:prosprum_ingot"
+  }
+}

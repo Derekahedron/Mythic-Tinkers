@@ -1,0 +1,92 @@
+[
+  {
+    "name": "intro",
+    "data": "sections/introduction.json",
+    "icon": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  {
+    "name": "styx",
+    "data": "sections/styx.json",
+    "icon": {
+      "item": "mythictinkers:styx_bucket"
+    }
+  },
+  {
+    "name": "melee_harvest_materials",
+    "data": "no-load",
+    "extraData": { "tconstruct:material_tier": { "type": "tconstruct:melee_harvest", "tier": 5 } },
+    "icon": {
+      "item": {
+        "type": "forge:nbt",
+        "item": "tconstruct:pickaxe",
+        "nbt": {
+          "tic_broken": false,
+          "tic_display": true,
+          "Damage": 0,
+          "tic_materials": [
+            "mythictinkers:tectellus",
+            "mythictinkers:tectellus",
+            "mythictinkers:byzantium_neodymium"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "ranged_materials",
+    "data": "no-load",
+    "extraData": { "tconstruct:material_tier": { "type": "tconstruct:ranged", "tier": 5 } },
+    "icon": {
+      "item": {
+        "type": "forge:nbt",
+        "item": "tconstruct:longbow",
+        "nbt": {
+          "tic_broken": false,
+          "tic_display": true,
+          "Damage": 0,
+          "tic_materials": [
+            "mythictinkers:prosprum",
+            "mythictinkers:prosprum",
+            "mythictinkers:aurichalcum",
+            "tconstruct:string"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "armor_materials",
+    "data": "no-load",
+    "extraData": { "tconstruct:material_tier": { "type": "tconstruct:armor", "tier": 5 } },
+    "icon": {
+      "item": {
+        "type": "forge:nbt",
+        "item": "tconstruct:plate_chestplate",
+        "nbt": {
+          "tic_broken": false,
+          "tic_display": true,
+          "Damage": 0,
+          "tic_materials": [
+            "mythictinkers:element_122",
+            "mythictinkers:gumbronze"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "boons",
+    "data": "sections/boons.json",
+    "icon": {
+      "item": {
+        "type": "forge:nbt",
+        "item": "tconstruct:creative_slot",
+        "nbt": {
+          "slot": "boons"
+        }
+      }
+    }
+  }
+]

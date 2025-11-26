@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "mythictinkers:radioactive"
+    },
+    {
+      "level": 1,
+      "name": "mythictinkers:half_life"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "mythictinkers:mythictinkers/mine_earthen_gum",
+  "criteria": {
+    "craft_gumbronze_tool": {
+      "conditions": {
+        "items": [
+          {
+            "type": "tconstruct:tool_stack",
+            "predicate": {
+              "type": "tconstruct:has_material",
+              "material": "mythictinkers:gumbronze"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.gumbronze_tool.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:gumbronze_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.gumbronze_tool.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_gumbronze_tool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

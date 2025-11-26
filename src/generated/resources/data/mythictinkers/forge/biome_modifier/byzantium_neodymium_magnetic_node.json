@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#mythictinkers:byzantium_neodymium_magnetic_node_generates_in",
+  "features": "mythictinkers:byzantium_neodymium_magnetic_node",
+  "step": "fluid_springs"
+}

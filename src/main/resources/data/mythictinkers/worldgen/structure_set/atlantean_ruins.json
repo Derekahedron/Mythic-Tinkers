@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mythictinkers:atlantean_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1206178266,
+    "spacing": 10,
+    "separation": 6
+  }
+}

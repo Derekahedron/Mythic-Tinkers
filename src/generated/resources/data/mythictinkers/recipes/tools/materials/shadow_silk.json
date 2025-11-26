@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "alexscaves:shadow_silk"
+  },
+  "material": "mythictinkers:shadow_silk",
+  "needed": 4,
+  "value": 1
+}

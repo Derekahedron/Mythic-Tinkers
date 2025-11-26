@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alexscaves:azure_neodymium_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "mythictinkers:azure_neodymium_nugget"
+  }
+}

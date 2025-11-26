@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:replace_single_block",
+  "config": {
+    "targets": [
+      {
+        "state": {
+          "Name": "mythictinkers:stygian_sculk_stone"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "mythictinkers:sculk_stone"
+        }
+      },
+      {
+        "state": {
+          "Name": "mythictinkers:stygian_gloomslate"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "mythictinkers:gloomslate"
+        }
+      }
+    ]
+  }
+}

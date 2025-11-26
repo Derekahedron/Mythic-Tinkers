@@ -1,0 +1,39 @@
+{
+  "parent": "mythictinkers:mythictinkers/root",
+  "criteria": {
+    "get_earthen_gum": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythictinkers:earthen_gum_ore",
+              "mythictinkers:earthen_gum_wad"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.mine_earthen_gum.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:earthen_gum_wad"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.mine_earthen_gum.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_earthen_gum"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

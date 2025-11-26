@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mythictinkers:block/dombstone_slab"
+    },
+    "type=double": {
+      "model": "mythictinkers:block/dombstone"
+    },
+    "type=top": {
+      "model": "mythictinkers:block/dombstone_slab_top"
+    }
+  }
+}

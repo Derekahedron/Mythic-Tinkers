@@ -1,0 +1,14 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "modules": [
+    {
+      "type": "mythictinkers:maximum_destroy_speed",
+      "block": {
+        "type": "mantle:tag",
+        "tag": "mythictinkers:terraformable"
+      },
+      "break_speed": 0.6
+    }
+  ],
+  "tooltip_display": "always"
+}

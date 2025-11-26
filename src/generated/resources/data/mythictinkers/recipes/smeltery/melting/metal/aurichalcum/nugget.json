@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/aurichalcum"
+  },
+  "result": {
+    "amount": 10,
+    "tag": "forge:molten_aurichalcum"
+  },
+  "temperature": 1550,
+  "time": 27
+}

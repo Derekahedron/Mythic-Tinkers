@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": true,
+  "inputs": [
+    {
+      "item": "alexscaves:tectonic_shard"
+    }
+  ],
+  "level": {
+    "max": 4,
+    "min": 2
+  },
+  "result": "mythictinkers:tectonic_shield",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  }
+}

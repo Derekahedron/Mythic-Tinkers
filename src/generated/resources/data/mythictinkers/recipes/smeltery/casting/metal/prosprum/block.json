@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cooling_time": 262,
+  "fluid": {
+    "amount": 810,
+    "tag": "forge:molten_prosprum"
+  },
+  "result": {
+    "tag": "forge:storage_blocks/prosprum"
+  }
+}

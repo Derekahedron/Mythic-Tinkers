@@ -1,0 +1,7 @@
+[
+  {
+    "name": "boons",
+    "type": "mythictinkers:modifier_tag",
+    "data": "boons/boons.json"
+  }
+]

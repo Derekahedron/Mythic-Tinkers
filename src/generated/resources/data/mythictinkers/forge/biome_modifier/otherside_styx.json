@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#mythictinkers:otherside_styx_generates_in",
+  "features": "mythictinkers:otherside_styx",
+  "step": "underground_ores"
+}

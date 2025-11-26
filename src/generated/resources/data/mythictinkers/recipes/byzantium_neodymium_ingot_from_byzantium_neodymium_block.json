@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "byzantium_neodymium_ingot",
+  "ingredients": [
+    {
+      "item": "mythictinkers:byzantium_neodymium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "mythictinkers:byzantium_neodymium_ingot"
+  }
+}

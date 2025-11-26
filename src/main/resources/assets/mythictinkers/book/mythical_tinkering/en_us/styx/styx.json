@@ -1,0 +1,14 @@
+{
+  "title": "Styx",
+  "item": "mythictinkers:styx_bucket",
+  "text": [
+    {
+      "text": "The only way to smelt these legendary materials is using a fuel that burns hotter than blazing blood. This fuel is called \"Styx\".",
+      "paragraph": true
+    },
+    {
+      "text": "Be careful around Styx. It consumes the life of any living being that touches it. You cannot swim in it and, the more damage you take, the less you'll be able to move.",
+      "paragraph": true
+    }
+  ]
+}

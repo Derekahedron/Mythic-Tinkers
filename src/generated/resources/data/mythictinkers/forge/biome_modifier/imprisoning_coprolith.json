@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#mythictinkers:imprisoning_coprolith_generates_in",
+  "features": "mythictinkers:imprisoning_coprolith",
+  "step": "underground_ores"
+}

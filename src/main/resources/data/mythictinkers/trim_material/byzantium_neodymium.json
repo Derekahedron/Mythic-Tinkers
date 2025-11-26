@@ -1,0 +1,14 @@
+{
+  "asset_name": "mythictinkers_byzantium_neodymium",
+  "description": {
+    "color": "#9C0797",
+    "translate": "trim_material.tconstruct.format",
+    "with": [
+      {
+        "translate": "material.mythictinkers.byzantium_neodymium"
+      }
+    ]
+  },
+  "ingredient": "mythictinkers:byzantium_neodymium_ingot",
+  "item_model_index": 1.0
+}

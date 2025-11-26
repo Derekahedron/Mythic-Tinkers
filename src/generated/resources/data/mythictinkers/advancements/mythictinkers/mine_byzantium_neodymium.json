@@ -1,0 +1,40 @@
+{
+  "parent": "mythictinkers:mythictinkers/root",
+  "criteria": {
+    "has_byzantium_neodymium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythictinkers:raw_byzantium_neodymium",
+              "mythictinkers:byzantium_neodymium_node",
+              "mythictinkers:byzantium_neodymium_pillar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.mine_byzantium_neodymium.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:raw_byzantium_neodymium"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.mine_byzantium_neodymium.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_byzantium_neodymium"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

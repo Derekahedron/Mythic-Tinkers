@@ -1,0 +1,6 @@
+{
+  "parent": "mythictinkers:block/fullbright_cube_all",
+  "textures": {
+    "all": "mythictinkers:block/element_122_block"
+  }
+}

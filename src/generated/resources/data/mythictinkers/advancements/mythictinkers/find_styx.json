@@ -1,0 +1,38 @@
+{
+  "parent": "mythictinkers:mythictinkers/root",
+  "criteria": {
+    "get_styx_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythictinkers:styx_bucket"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mythictinkers.find_styx.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mythictinkers:styx_bucket"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mythictinkers.find_styx.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_styx_bucket"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
