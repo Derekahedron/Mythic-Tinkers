@@ -47,10 +47,6 @@ public class MTUtil {
         return new ResourceLocation(derekahedron.mythictinkers.MythicTinkers.MOD_ID, path);
     }
 
-    public static ResourceLocation forgeLocation(String path) {
-        return new ResourceLocation("forge", path);
-    }
-
     public static Holder<DamageType> getDamageType(Entity entity, ResourceKey<DamageType> damageType) {
         return entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(damageType);
     }

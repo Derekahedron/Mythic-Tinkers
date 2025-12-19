@@ -4,7 +4,10 @@
     "#minecraft:base_stone_nether",
     "#forge:ores",
     "minecraft:packed_mud",
+    "minecraft:sandstone",
+    "minecraft:red_sandstone",
     "minecraft:amethyst_block",
+    "minecraft:glowstone",
     "minecraft:budding_amethyst",
     "minecraft:small_amethyst_bud",
     "minecraft:medium_amethyst_bud",
@@ -12,10 +15,14 @@
     "minecraft:amethyst_cluster",
     "minecraft:dripstone_block",
     "minecraft:pointed_dripstone",
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice",
     "minecraft:calcite",
     "minecraft:smooth_basalt",
     "minecraft:end_stone",
     "minecraft:obsidian",
+    "minecraft:crying_obsidian",
     "#forge:stone",
     "minecraft:obsidian",
     "#mythictinkers:energized_galena",
@@ -37,6 +44,178 @@
     "alexscaves:coprolith",
     "alexscaves:porous_coprolith",
     "alexscaves:peering_coprolith",
+    {
+      "id": "biomesoplenty:white_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:orange_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:black_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:thermal_calcite",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:thermal_calcite_vent",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_fumarole",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_cluster",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_bud",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:blackstone_spines",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:blackstone_bulb",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:rose_quartz_block",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:rose_quartz_cluster",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:large_rose_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:medium_rose_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:small_rose_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:algal_end_stone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:unmapped_end_stone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:null_end_stone",
+      "required": false
+    },
+    {
+      "id": "create:asurine",
+      "required": false
+    },
+    {
+      "id": "create:crimsite",
+      "required": false
+    },
+    {
+      "id": "create:limestone",
+      "required": false
+    },
+    {
+      "id": "create:ochrum",
+      "required": false
+    },
+    {
+      "id": "create:scoria",
+      "required": false
+    },
+    {
+      "id": "create:scorchia",
+      "required": false
+    },
+    {
+      "id": "create:veridium",
+      "required": false
+    },
+    {
+      "id": "galosphere:allurite_block",
+      "required": false
+    },
+    {
+      "id": "galosphere:lumiere_block",
+      "required": false
+    },
+    {
+      "id": "galosphere:allurite_cluster",
+      "required": false
+    },
+    {
+      "id": "galosphere:lumiere_cluster",
+      "required": false
+    },
+    {
+      "id": "galosphere:glinted_allurite_cluster",
+      "required": false
+    },
+    {
+      "id": "galosphere:glinted_lumiere_cluster",
+      "required": false
+    },
+    {
+      "id": "galosphere:glinted_amethyst_cluster",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:rose_pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:pastel_pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_straw",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_cluster",
+      "required": false
+    },
+    {
+      "id": "yungscavebiomes:icicle",
+      "required": false
+    },
+    {
+      "id": "yungscavebiomes:rare_ice",
+      "required": false
+    },
+    {
+      "id": "yungscavebiomes:ice_sheet",
+      "required": false
+    },
+    {
+      "id": "yungscavebiomes:ancient_sandstone",
+      "required": false
+    },
+    {
+      "id": "yungscavebiomes:layered_ancient_sandstone",
+      "required": false
+    },
     "tconstruct:earth_slime_crystal_block",
     "tconstruct:budding_earth_slime_crystal",
     "tconstruct:small_earth_slime_crystal_bud",

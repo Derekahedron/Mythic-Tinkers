@@ -1,0 +1,29 @@
+{
+  "values": [
+    "#forge:nuggets/scarlet_neodymium",
+    "#forge:nuggets/azure_neodymium",
+    "mythictinkers:byzantium_neodymium_node",
+    "mythictinkers:byzantium_neodymium_pillar",
+    "mythictinkers:raw_byzantium_neodymium",
+    "#forge:nuggets/byzantium_neodymium",
+    "#forge:ingots/byzantium_neodymium",
+    "#forge:storage_blocks/raw_tectellus",
+    "#forge:raw_materials/tectellus",
+    "#forge:nuggets/tectellus",
+    "#forge:ingots/tectellus",
+    "#forge:storage_blocks/raw_element_122",
+    "#forge:raw_materials/element_122",
+    "#forge:nuggets/element_122",
+    "#forge:ingots/element_122",
+    "#forge:nuggets/aurichalcum",
+    "#forge:ingots/aurichalcum",
+    "#forge:nuggets/desolum",
+    "#forge:ingots/desolum",
+    "#forge:storage_blocks/prosprum",
+    "#forge:ingots/prosprum",
+    "#forge:storage_blocks/earthen_gum",
+    "mythictinkers:earthen_gum_wad",
+    "#forge:nuggets/gumbronze",
+    "#forge:ingots/gumbronze"
+  ]
+}

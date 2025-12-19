@@ -134,36 +134,36 @@ public class ForgeTags {
 
     public static class Fluids {
         public static final TagKey<Fluid> STYX =
-                FluidTags.create(MTUtil.forgeLocation("styx"));
+                FluidTags.create(CompatUtil.forge("styx"));
 
         public static final TagKey<Fluid> MOLTEN_SCARLET_NEODYMIUM =
-                FluidTags.create(MTUtil.forgeLocation("molten_scarlet_neodymium"));
+                FluidTags.create(CompatUtil.forge("molten_scarlet_neodymium"));
 
         public static final TagKey<Fluid> MOLTEN_AZURE_NEODYMIUM =
-                FluidTags.create(MTUtil.forgeLocation("molten_azure_neodymium"));
+                FluidTags.create(CompatUtil.forge("molten_azure_neodymium"));
 
         public static final TagKey<Fluid> MOLTEN_BYZANTIUM_NEODYMIUM =
-                FluidTags.create(MTUtil.forgeLocation("molten_byzantium_neodymium"));
+                FluidTags.create(CompatUtil.forge("molten_byzantium_neodymium"));
 
         public static final TagKey<Fluid> MOLTEN_TECTELLUS =
-                FluidTags.create(MTUtil.forgeLocation("molten_tectellus"));
+                FluidTags.create(CompatUtil.forge("molten_tectellus"));
 
         public static final TagKey<Fluid> MOLTEN_ELEMENT_122 =
-                FluidTags.create(MTUtil.forgeLocation("molten_element_122"));
+                FluidTags.create(CompatUtil.forge("molten_element_122"));
 
         public static final TagKey<Fluid> MOLTEN_AURICHALCUM =
-                FluidTags.create(MTUtil.forgeLocation("molten_aurichalcum"));
+                FluidTags.create(CompatUtil.forge("molten_aurichalcum"));
 
         public static final TagKey<Fluid> MOLTEN_DESOLUM =
-                FluidTags.create(MTUtil.forgeLocation("molten_desolum"));
+                FluidTags.create(CompatUtil.forge("molten_desolum"));
 
         public static final TagKey<Fluid> MOLTEN_PROSPRUM =
-                FluidTags.create(MTUtil.forgeLocation("molten_prosprum"));
+                FluidTags.create(CompatUtil.forge("molten_prosprum"));
 
         public static final TagKey<Fluid> EARTHEN_GUM =
-                FluidTags.create(MTUtil.forgeLocation("earthen_gum"));
+                FluidTags.create(CompatUtil.forge("earthen_gum"));
 
         public static final TagKey<Fluid> MOLTEN_GUMBRONZE =
-                FluidTags.create(MTUtil.forgeLocation("molten_gumbronze"));
+                FluidTags.create(CompatUtil.forge("molten_gumbronze"));
     }
 }

@@ -2,7 +2,7 @@
   "modifier_id": "mythictinkers:dreadshot",
   "text": [
     {
-      "text": "Your bow rains arrows down on your target."
+      "text": "Your bow rains arrows down on your target. (Regular arrows still trigger invincibility frames)"
     }
   ],
   "more_text_space": true,

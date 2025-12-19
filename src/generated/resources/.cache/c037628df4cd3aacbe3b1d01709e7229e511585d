@@ -1,4 +1,4 @@
-// 1.20.1	2025-11-25T01:40:32.3366635	Mythic Tinkers Block Tags
+// 1.20.1	2025-12-14T19:49:58.4991242	Mythic Tinkers Block Tags
 ad059e778f50093b1b51084e07867fb2c8ba2a91 data/alexscaves/tags/blocks/ferromagnetic_blocks.json
 e566f21f602d24b7265096d0ce1f45e87bc6997a data/forge/tags/blocks/needs_netherite_tool.json
 edad55bfe5b998d96d6af41132c31f8b4a0b9f22 data/forge/tags/blocks/ores.json
@@ -30,6 +30,6 @@ d463c8ae01f5903d14f94fd13a590dd713485a87 data/minecraft/tags/blocks/mineable/pic
 b63d744f7ff088069a0d0f19bc7cb5fdfcb3f295 data/mythictinkers/tags/blocks/energized_galena.json
 151c352c5818bbb066a9d3330c2e89ed8bd6ec65 data/mythictinkers/tags/blocks/gloomslate.json
 9dc835813deaa8340d93724bb5eec0d593b39d12 data/mythictinkers/tags/blocks/sculk_stone.json
-9d1f425d74faf2bf0da67d10b33cc9a5f7eaef40 data/mythictinkers/tags/blocks/terraformable.json
+84e7321869ee561b8e3abbf7a5a49451ef86e8e7 data/mythictinkers/tags/blocks/terraformable.json
 fff8771f2e3c1d0f219c4be7da0c0a68dc49d38a data/tconstruct/tags/blocks/anvil_metal.json
 aaf635d3fd39af0d7366475037eed6cb03a9c4b8 data/tconstruct/tags/blocks/workstation_rock.json

@@ -1,4 +1,4 @@
-// 1.20.1	2025-11-25T01:40:32.334154	Mythic Tinkers Item Tags
+// 1.20.1	2025-12-14T18:51:55.4192557	Mythic Tinkers Item Tags
 cde57559d82dab1410cc9a173962879f96c897fa data/alexscaves/tags/items/ferromagnetic_items.json
 2ef1a6f6ca0ea90ee3e491dc17d13168e12ebf43 data/forge/tags/items/ingots.json
 8b02d43c21a1944b3d9face303e35cb20b507ead data/forge/tags/items/ingots/aurichalcum.json
@@ -20,7 +20,7 @@ d5f84ac910255f5b04474aa9e62fa49f1a7aea8a data/forge/tags/items/nuggets/byzantium
 0954cb1926dcc536c5baf2115ebee3f8aa06fcd6 data/forge/tags/items/nuggets/prosprum.json
 c95f235696ddae423dce70f618e8973a4e6daace data/forge/tags/items/nuggets/scarlet_neodymium.json
 4209d06caf8516d523c8021dad33e90d18b2cca8 data/forge/tags/items/nuggets/tectellus.json
-4448c2a2523667b50c6b2df0d7e1d1dbde867dc8 data/forge/tags/items/ores.json
+09915ca494086df09d1de764a6e60a6631b178bf data/forge/tags/items/ores.json
 538d353ea0a8154c98104b294db647bd7d44be5e data/forge/tags/items/ores/earthen_gum.json
 33118359a2f982f8f9720c38de435cf178988b3e data/forge/tags/items/ores/element_122.json
 0001b1c216285a525990d85dd7effbbc94da5ea9 data/forge/tags/items/ores/styx.json
@@ -41,6 +41,10 @@ eb7f45e24784e709378d3ef332a276a208262a58 data/forge/tags/items/storage_blocks/pr
 7fa199537e8e33dcf2ba0ea824835b2a313879f2 data/forge/tags/items/storage_blocks/raw_tectellus.json
 9158fb9f789bc87a847f1add86976ea77d4ffc3c data/forge/tags/items/storage_blocks/scarlet_neodymium.json
 cb2458e8ef62c786f56d71608fc7eb20d081c990 data/forge/tags/items/storage_blocks/tectellus.json
+c176f968f5b6ec2fcb7043d288769ad61f8a9bc2 data/invexp/tags/items/sack_type/metal_block.json
+7b63bb674018f8581bce6efe450451e8f88cf6ed data/invexp/tags/items/sack_type/ore.json
+b3c3e1546161ea8c5c7f0ad2536214382f55348d data/invexp/tags/items/sack_type/stone.json
+a3081f651b2a0ce30451b67f2781094dea7775b5 data/invexp/tags/items/sack_weight/fifth.json
 06a267c66458c6f55e2f4f8827f8fa7f12b58988 data/minecraft/tags/items/arrows.json
 6454c7f1b41cb7352f551a90f167775e5bdf42b4 data/minecraft/tags/items/beacon_payment_items.json
 6775a204efe6071d4d6b120f815fdc5dca2aa79e data/minecraft/tags/items/slabs.json
@@ -48,6 +52,9 @@ cb2458e8ef62c786f56d71608fc7eb20d081c990 data/forge/tags/items/storage_blocks/te
 6a23ac94c92c332146039a60fe828fe97a384cb7 data/minecraft/tags/items/trim_materials.json
 62df0d8c59fd5ebc15668121f4a40d18c601a417 data/minecraft/tags/items/walls.json
 63f02dc1dd3cb64ed3f854dd616e3199f210d5d5 data/mythictinkers/tags/items/acid_resistant.json
+0653f804f331be6386a3620fbae6cce941d8bbf2 data/mythictinkers/tags/items/atlantean.json
+6d0bb0c9a6994647741bee257b9eb90fa359ef6e data/mythictinkers/tags/items/dombstone.json
+498572f089cb985b76d076ef6ca171ef333587ae data/mythictinkers/tags/items/dombstone_bricks.json
 fff8771f2e3c1d0f219c4be7da0c0a68dc49d38a data/tconstruct/tags/items/anvil_metal.json
 430b7df17dd76319967a07e0143c1e4c6c1b759b data/tconstruct/tags/items/guides.json
 aaf635d3fd39af0d7366475037eed6cb03a9c4b8 data/tconstruct/tags/items/workstation_rock.json

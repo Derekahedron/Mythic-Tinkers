@@ -8,7 +8,7 @@
   "effects": [
     "Shoots multiple arrows down from the sky at your target",
     "Only costs one arrow",
-    "More arrows are fired when dark arrows are used",
+    "Use dark arrows to bypass invincibility frames",
     "Single level",
     "Requires 1 ability slot"
   ]

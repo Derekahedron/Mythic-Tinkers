@@ -2,7 +2,9 @@
   "values": [
     "#forge:ores/styx",
     "#forge:ores/tectellus",
+    "mythictinkers:dormant_tectellus_ore",
     "#forge:ores/element_122",
+    "mythictinkers:imprisoning_coprolith",
     "#forge:ores/earthen_gum"
   ]
 }

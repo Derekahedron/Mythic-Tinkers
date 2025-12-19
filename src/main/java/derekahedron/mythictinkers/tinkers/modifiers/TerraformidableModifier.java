@@ -3,6 +3,7 @@ package derekahedron.mythictinkers.tinkers.modifiers;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.block.Blocks;
 import slimeknights.tconstruct.library.modifiers.ModifierEntry;
 import slimeknights.tconstruct.library.modifiers.ModifierHooks;
@@ -29,7 +30,7 @@ public class TerraformidableModifier extends NoLevelsModifier implements Protect
     public float getProtectionModifier(
             IToolStackView tool, ModifierEntry modifier, EquipmentContext context,
             EquipmentSlot slotType, DamageSource source, float modifierValue) {
-        if (!isPickaxeAttack(source)) {
+        if (isPlayerAttack(source) && !isPickaxeAttack(source)) {
             modifierValue += PROTECTION_PER_LEVEL * modifier.getEffectiveLevel();
         }
 
@@ -40,7 +41,12 @@ public class TerraformidableModifier extends NoLevelsModifier implements Protect
     public float modifyDamageTaken(
             IToolStackView tool, ModifierEntry modifier, EquipmentContext context,
             EquipmentSlot slotType, DamageSource source, float amount, boolean isDirectDamage) {
-        return isPickaxeAttack(source) ? amount * DAMAGE_MULTIPLIER : amount;
+        return isPlayerAttack(source) && isPickaxeAttack(source) ? amount * DAMAGE_MULTIPLIER : amount;
+    }
+
+    public static boolean isPlayerAttack(DamageSource source) {
+        return !source.isIndirect()
+                && source.getEntity() instanceof Player;
     }
 
     public static boolean isPickaxeAttack(DamageSource source) {

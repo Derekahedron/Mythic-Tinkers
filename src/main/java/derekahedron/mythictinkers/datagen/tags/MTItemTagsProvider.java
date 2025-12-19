@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tags;
 
+import derekahedron.invexp.item.InvExpItemTags;
 import derekahedron.mythictinkers.item.MTItemTags;
 import derekahedron.mythictinkers.item.MTItems;
 import derekahedron.mythictinkers.util.ForgeTags;
@@ -168,7 +169,9 @@ public class MTItemTagsProvider extends ItemTagsProvider {
         tag(Tags.Items.ORES)
                 .addTag(ForgeTags.Items.STYX_ORES)
                 .addTag(ForgeTags.Items.TECTELLUS_ORES)
+                .add(MTItems.DORMANT_TECTELLUS_ORE.get())
                 .addTag(ForgeTags.Items.ELEMENT_122_ORES)
+                .add(MTItems.IMPRISONING_COPROLITH.get())
                 .addTag(ForgeTags.Items.EARTHEN_GUM_ORES);
         tag(Tags.Items.STORAGE_BLOCKS)
                 .addTag(ForgeTags.Items.SCARLET_NEODYMIUM_BLOCKS)
@@ -241,6 +244,84 @@ public class MTItemTagsProvider extends ItemTagsProvider {
                 .addOptionalTag(TinkerMaterials.queensSlime.getIngotTag())
                 .addOptionalTag(TinkerMaterials.queensSlime.getNuggetTag())
                 .addOptionalTag(TinkerMaterials.queensSlime.getBlockItemTag());
+
+        tag(InvExpItemTags.SackType.STONE)
+                .addTag(MTItemTags.DOMBSTONE)
+                .add(MTItems.BYZANTIUM_ENERGIZED_GALENA.get());
+
+        tag(InvExpItemTags.SackType.METAL_BLOCK)
+                .addTag(ForgeTags.Items.BYZANTIUM_NEODYMIUM_BLOCKS)
+                .addTag(ForgeTags.Items.TECTELLUS_BLOCKS)
+                .addTag(ForgeTags.Items.ELEMENT_122_BLOCKS)
+                .addTag(MTItemTags.ATLANTEAN)
+                .addTag(ForgeTags.Items.AURICHALCUM_BLOCKS)
+                .addTag(ForgeTags.Items.DESOLUM_BLOCKS)
+                .addTag(ForgeTags.Items.PROSPRUM_BLOCKS)
+                .addTag(ForgeTags.Items.GUMBRONZE_BLOCKS);
+
+        tag(InvExpItemTags.SackType.ORE)
+                .addTag(ForgeTags.Items.SCARLET_NEODYMIUM_NUGGETS)
+                .addTag(ForgeTags.Items.AZURE_NEODYMIUM_NUGGETS)
+                .add(MTItems.BYZANTIUM_NEODYMIUM_NODE.get())
+                .add(MTItems.BYZANTIUM_NEODYMIUM_PILLAR.get())
+                .add(MTItems.RAW_BYZANTIUM_NEODYMIUM.get())
+                .addTag(ForgeTags.Items.BYZANTIUM_NEODYMIUM_NUGGETS)
+                .addTag(ForgeTags.Items.BYZANTIUM_NEODYMIUM_INGOTS)
+                .addTag(ForgeTags.Items.RAW_TECTELLUS_BLOCKS)
+                .addTag(ForgeTags.Items.RAW_TECTELLUS)
+                .addTag(ForgeTags.Items.TECTELLUS_NUGGETS)
+                .addTag(ForgeTags.Items.TECTELLUS_INGOTS)
+                .addTag(ForgeTags.Items.RAW_ELEMENT_122_BLOCKS)
+                .addTag(ForgeTags.Items.RAW_ELEMENT_122)
+                .addTag(ForgeTags.Items.ELEMENT_122_NUGGETS)
+                .addTag(ForgeTags.Items.ELEMENT_122_INGOTS)
+                .addTag(ForgeTags.Items.AURICHALCUM_NUGGETS)
+                .addTag(ForgeTags.Items.AURICHALCUM_INGOTS)
+                .addTag(ForgeTags.Items.DESOLUM_NUGGETS)
+                .addTag(ForgeTags.Items.DESOLUM_INGOTS)
+                .addTag(ForgeTags.Items.PROSPRUM_BLOCKS)
+                .addTag(ForgeTags.Items.PROSPRUM_INGOTS)
+                .addTag(ForgeTags.Items.EARTHEN_GUM_BLOCKS)
+                .add(MTItems.EARTHEN_GUM_WAD.get())
+                .addTag(ForgeTags.Items.GUMBRONZE_NUGGETS)
+                .addTag(ForgeTags.Items.GUMBRONZE_INGOTS);
+
+        tag(InvExpItemTags.SackWeight.FIFTH)
+                .addTag(ForgeTags.Items.SCARLET_NEODYMIUM_NUGGETS)
+                .addTag(ForgeTags.Items.AZURE_NEODYMIUM_NUGGETS)
+                .addTag(ForgeTags.Items.BYZANTIUM_NEODYMIUM_NUGGETS)
+                .addTag(ForgeTags.Items.TECTELLUS_NUGGETS)
+                .addTag(ForgeTags.Items.ELEMENT_122_NUGGETS)
+                .addTag(ForgeTags.Items.AURICHALCUM_NUGGETS)
+                .addTag(ForgeTags.Items.DESOLUM_NUGGETS)
+                .addTag(ForgeTags.Items.GUMBRONZE_NUGGETS);
+
+        tag(MTItemTags.DOMBSTONE)
+                .add(MTItems.DOMBSTONE.get())
+                .add(MTItems.DOMBSTONE_STAIRS.get())
+                .add(MTItems.DOMBSTONE_SLAB.get())
+                .add(MTItems.DOMBSTONE_WALL.get())
+                .addTag(MTItemTags.DOMBSTONE_BRICKS);
+
+        tag(MTItemTags.DOMBSTONE_BRICKS)
+                .add(MTItems.DOMBSTONE_BRICKS.get())
+                .add(MTItems.DOMBSTONE_BRICK_STAIRS.get())
+                .add(MTItems.DOMBSTONE_BRICK_SLAB.get())
+                .add(MTItems.DOMBSTONE_BRICK_WALL.get());
+
+        tag(MTItemTags.ATLANTEAN)
+                .add(MTItems.ATLANTEAN_BRICKS.get())
+                .add(MTItems.CRACKED_ATLANTEAN_BRICKS.get())
+                .add(MTItems.ATLANTEAN_BRICK_STAIRS.get())
+                .add(MTItems.ATLANTEAN_BRICK_SLAB.get())
+                .add(MTItems.ATLANTEAN_BRICK_WALL.get())
+                .add(MTItems.ATLANTEAN_TILES.get())
+                .add(MTItems.CRACKED_ATLANTEAN_TILES.get())
+                .add(MTItems.ATLANTEAN_TILE_STAIRS.get())
+                .add(MTItems.ATLANTEAN_TILE_SLAB.get())
+                .add(MTItems.ATLANTEAN_TILE_WALL.get())
+                .add(MTItems.ATLANTEAN_PILLAR.get())
+                .add(MTItems.CRACKED_ATLANTEAN_PILLAR.get());
 
         tag(MTItemTags.ACID_RESISTANT)
                 .add(MTItems.ELEMENT_122_BLOCK.get())
