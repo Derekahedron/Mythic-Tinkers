@@ -33,6 +33,7 @@ public class AeroformingModifier extends NoLevelsModifier implements
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,
                 ModifierHooks.PROJECTILE_LAUNCH,
+                ModifierHooks.PROJECTILE_THROWN,
                 ModifierHooks.PROJECTILE_HIT,
                 ModifierHooks.TOOL_USING);
     }
@@ -42,8 +43,10 @@ public class AeroformingModifier extends NoLevelsModifier implements
             IToolStackView tool, ModifierEntry modifier, LivingEntity shooter,
             Projectile projectile, @Nullable AbstractArrow arrow,
             ModDataNBT persistentData, boolean primary) {
-        CompoundTag toolComponent = tool.getPersistentData().getCompound(getId());
-        float charge = toolComponent.contains(CHARGE_KEY) ? toolComponent.getFloat(CHARGE_KEY) : 1.0F;
+        CompoundTag toolCompound = tool.getPersistentData().getCompound(getId());
+        float charge = toolCompound.contains(CHARGE_KEY) ? toolCompound.getFloat(CHARGE_KEY) : 1.0F;
+        toolCompound.remove(CHARGE_KEY);
+        tool.getPersistentData().put(getId(), toolCompound);
         if (charge >= 1.0) {
             CompoundTag arrowCompound = new CompoundTag();
             arrowCompound.putBoolean(CHARGED_KEY, true);
@@ -52,7 +55,7 @@ public class AeroformingModifier extends NoLevelsModifier implements
     }
 
     @Override
-    public void onProjectileHitBlock(
+    public boolean onProjectileHitsBlock(
             ModifierNBT modifiers, ModDataNBT persistentData, ModifierEntry modifier,
             Projectile projectile, BlockHitResult hit, @Nullable LivingEntity attacker) {
         BlockState state = projectile.level().getBlockState(hit.getBlockPos());
@@ -60,12 +63,16 @@ public class AeroformingModifier extends NoLevelsModifier implements
         if (!compound.isEmpty() && compound.getBoolean(CHARGED_KEY)) {
             if (state.getDestroySpeed(projectile.level(), hit.getBlockPos()) >= 0.0F
                     && state.is(MTBlockTags.TERRAFORMABLE)) {
-                projectile.level().destroyBlock(hit.getBlockPos(), true, projectile);
-                projectile.discard();
+                projectile.level().destroyBlock(hit.getBlockPos(), true, attacker);
+                persistentData.remove(getId());
+                if (projectile instanceof AbstractArrow) {
+                    projectile.discard();
+                }
             } else {
                 persistentData.remove(getId());
             }
         }
+        return false;
     }
 
     @Override

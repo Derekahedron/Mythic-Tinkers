@@ -1,4 +1,4 @@
-// 1.20.1	2025-12-14T18:51:55.4192557	Mythic Tinkers Item Tags
+// 1.20.1	2025-12-24T10:58:43.1342278	Mythic Tinkers Item Tags
 cde57559d82dab1410cc9a173962879f96c897fa data/alexscaves/tags/items/ferromagnetic_items.json
 2ef1a6f6ca0ea90ee3e491dc17d13168e12ebf43 data/forge/tags/items/ingots.json
 8b02d43c21a1944b3d9face303e35cb20b507ead data/forge/tags/items/ingots/aurichalcum.json
@@ -42,7 +42,7 @@ eb7f45e24784e709378d3ef332a276a208262a58 data/forge/tags/items/storage_blocks/pr
 9158fb9f789bc87a847f1add86976ea77d4ffc3c data/forge/tags/items/storage_blocks/scarlet_neodymium.json
 cb2458e8ef62c786f56d71608fc7eb20d081c990 data/forge/tags/items/storage_blocks/tectellus.json
 c176f968f5b6ec2fcb7043d288769ad61f8a9bc2 data/invexp/tags/items/sack_type/metal_block.json
-7b63bb674018f8581bce6efe450451e8f88cf6ed data/invexp/tags/items/sack_type/ore.json
+96767422e1c834c764e6faa7557c987e28e1b3fb data/invexp/tags/items/sack_type/ore.json
 b3c3e1546161ea8c5c7f0ad2536214382f55348d data/invexp/tags/items/sack_type/stone.json
 a3081f651b2a0ce30451b67f2781094dea7775b5 data/invexp/tags/items/sack_weight/fifth.json
 06a267c66458c6f55e2f4f8827f8fa7f12b58988 data/minecraft/tags/items/arrows.json

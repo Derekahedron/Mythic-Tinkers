@@ -45,9 +45,10 @@ public class DesolateModifier extends NoLevelsModifier implements MeleeHitModifi
 
     @Override
     public boolean onProjectileHitEntity(
-            ModifierNBT modifiers, ModDataNBT persistentData, ModifierEntry modifier, Projectile projectile,
-            EntityHitResult hit, @Nullable LivingEntity attacker, @Nullable LivingEntity target) {
-        if (MTUtil.shouldBlockHitEffect(projectile, hit)) return false;
+            ModifierNBT modifiers, ModDataNBT persistentData, ModifierEntry modifier,
+            Projectile projectile, EntityHitResult hit, @Nullable LivingEntity attacker,
+            @Nullable LivingEntity target, boolean notBlocked) {
+        if (!notBlocked || MTUtil.shouldBlockHitEffect(projectile, hit)) return false;
 
         if (target != null) {
             spawnDesolateDagger(target, attacker);

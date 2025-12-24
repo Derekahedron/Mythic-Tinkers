@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.event;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.damage.MTDamageTypes;
 import derekahedron.mythictinkers.entity.LivingEntityDuck;
 import derekahedron.mythictinkers.fluid.MTFluidTypes;
@@ -18,7 +19,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.network.PacketDistributor;
 
-@Mod.EventBusSubscriber(modid = derekahedron.mythictinkers.MythicTinkers.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(modid = MythicTinkers.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class StyxEventHandler {
     public static final float STYX_DAMAGE_CAP = 10.0F;
 

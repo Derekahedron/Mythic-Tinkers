@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.event;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.network.EmptySwingPacket;
 import derekahedron.mythictinkers.network.MTPacketHandler;
 import derekahedron.mythictinkers.tinkers.hooks.EmptySwingModifierHook;
@@ -13,7 +14,7 @@ import net.minecraftforge.fml.common.Mod;
 import slimeknights.tconstruct.common.TinkerTags;
 import slimeknights.tconstruct.library.tools.nbt.ToolStack;
 
-@Mod.EventBusSubscriber(modid = derekahedron.mythictinkers.MythicTinkers.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(modid = MythicTinkers.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class EmptySwingHookEventHandler {
 
     @SubscribeEvent

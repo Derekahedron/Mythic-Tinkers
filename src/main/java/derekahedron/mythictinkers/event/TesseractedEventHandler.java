@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.event;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.tinkers.modifiers.MTModifierIds;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.item.ItemStack;
@@ -13,7 +14,7 @@ import slimeknights.tconstruct.library.modifiers.hook.interaction.InteractionSou
 import slimeknights.tconstruct.library.tools.item.armor.ModifiableArmorItem;
 import slimeknights.tconstruct.library.tools.nbt.ToolStack;
 
-@Mod.EventBusSubscriber(modid = derekahedron.mythictinkers.MythicTinkers.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(modid = MythicTinkers.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class TesseractedEventHandler {
 
     @SubscribeEvent

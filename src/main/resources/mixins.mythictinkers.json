@@ -6,7 +6,6 @@
   "refmap": "mythictinkers.refmap.json",
   "mixins": [
     "AcidBlockMixin",
-    "BlockBehaviorMixin",
     "ComposableModifierAccessor",
     "DinosaurSpiritEntityMixin",
     "EntityMixin",

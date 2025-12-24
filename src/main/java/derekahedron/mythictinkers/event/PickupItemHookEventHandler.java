@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.event;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.tinkers.hooks.PickupItemModifierHook;
 import com.google.common.collect.ImmutableList;
 import net.minecraft.stats.Stats;
@@ -12,7 +13,7 @@ import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = derekahedron.mythictinkers.MythicTinkers.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(modid = MythicTinkers.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class PickupItemHookEventHandler {
 
     @SubscribeEvent

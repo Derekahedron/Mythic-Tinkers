@@ -12,6 +12,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import slimeknights.mantle.util.OffhandCooldownTracker;
@@ -25,7 +26,7 @@ import slimeknights.tconstruct.library.module.ModuleHookMap;
 import slimeknights.tconstruct.library.tools.context.ToolAttackContext;
 import slimeknights.tconstruct.library.tools.helper.ToolAttackUtil;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
-import slimeknights.tconstruct.tools.TinkerModifiers;
+import slimeknights.tconstruct.tools.modifiers.ability.tool.OffhandAttackModifier;
 
 import java.util.List;
 
@@ -70,12 +71,28 @@ public class VengefulStrikeModifier extends NoLevelsModifier implements GeneralI
         }
 
         for (Entity entity : entities) {
-            if (entity instanceof LivingEntity livingEntity) {
-                ToolAttackUtil.attackEntity(tool, player, hand, entity, ToolAttackUtil.getCooldownFunction(player, hand), false, InteractionSource.RIGHT_CLICK.getSlot(hand));
-                livingEntity.removeEffect(MTEffects.MARKED_FOR_DEATH.get());
-                ((ServerLevel) player.level()).sendParticles(ParticleTypes.SWEEP_ATTACK,
-                        entity.getX(), entity.getY(0.5D), entity.getZ(),
-                        0, 0.0D, 0.0D, 0.0D, 0.0D);
+            if (entity instanceof LivingEntity target) {
+                if (ToolAttackUtil.canPerformAttack(tool) && ToolAttackUtil.isAttackable(player, target)) {
+                    ToolAttackContext.Builder builder = ToolAttackContext
+                            .attacker(player)
+                            .target(target)
+                            .hand(InteractionHand.OFF_HAND);
+                    if (hand == InteractionHand.MAIN_HAND) {
+                        builder = builder.defaultCooldown();
+                    } else if (hand == InteractionHand.OFF_HAND) {
+                        builder = builder.offhandCooldown();
+                    }
+                    if (InteractionSource.RIGHT_CLICK.getSlot(hand) == EquipmentSlot.MAINHAND) {
+                        builder.applyAttributes();
+                    } else {
+                        builder.toolAttributes(tool);
+                    }
+                    ToolAttackUtil.performAttack(tool, builder.build());
+                    target.removeEffect(MTEffects.MARKED_FOR_DEATH.get());
+                    ((ServerLevel) player.level()).sendParticles(ParticleTypes.SWEEP_ATTACK,
+                            entity.getX(), entity.getY(0.5D), entity.getZ(),
+                            0, 0.0D, 0.0D, 0.0D, 0.0D);
+                }
             }
         }
 
@@ -88,12 +105,17 @@ public class VengefulStrikeModifier extends NoLevelsModifier implements GeneralI
     public InteractionResult onToolUse(
             IToolStackView tool, ModifierEntry modifier,
             Player player, InteractionHand hand, InteractionSource source) {
-        if (tool.getModifierLevel(TinkerModifiers.offhandAttack.get()) > 0
-                && !tool.isBroken()
+        if (hasOffhandModifier(tool)
+                && ToolAttackUtil.canPerformAttack(tool)
                 && hand == InteractionHand.OFF_HAND
                 && OffhandCooldownTracker.isAttackReady(player)) {
             onEmptySwing(tool, modifier, player, hand);
         }
         return InteractionResult.PASS;
+    }
+
+    public static boolean hasOffhandModifier(IToolStackView tool) {
+        return tool.getModifiers().getModifiers().stream()
+                .anyMatch(m -> m.getModifier() instanceof OffhandAttackModifier);
     }
 }

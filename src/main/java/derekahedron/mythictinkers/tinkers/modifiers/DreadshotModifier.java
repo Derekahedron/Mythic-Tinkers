@@ -56,6 +56,8 @@ public class DreadshotModifier extends NoLevelsModifier implements
             @Nullable AbstractArrow arrow, ModDataNBT persistentData, boolean primary) {
         CompoundTag compound = tool.getPersistentData().getCompound(getId());
         float charge = compound.contains(CHARGE_KEY) ? compound.getFloat(CHARGE_KEY) : 1.0F;
+        compound.remove(CHARGE_KEY);
+        tool.getPersistentData().put(getId(), compound);
 
         float speed = (float) projectile.getDeltaMovement().length() / 3.0F;
         float inaccuracy = ModifierUtil.getInaccuracy(tool, shooter);
@@ -76,7 +78,7 @@ public class DreadshotModifier extends NoLevelsModifier implements
             skyPos = skyPos.above();
         }
 
-        launchProjectile(arrow, targetPosition, skyPos, level, speed, inaccuracy);
+        launchProjectile(projectile, targetPosition, skyPos, level, speed, inaccuracy);
         if (!primary) return;
 
         shooter.playSound(ACSoundRegistry.DREADBOW_RELEASE.get());

@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.event;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.tinkers.modifiers.MTModifiers;
 import com.github.alexmodguy.alexscaves.server.item.ExtinctionSpearItem;
 import net.minecraft.sounds.SoundEvents;
@@ -9,7 +10,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import slimeknights.tconstruct.library.tools.helper.ModifierUtil;
 
-@Mod.EventBusSubscriber(modid = derekahedron.mythictinkers.MythicTinkers.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(modid = MythicTinkers.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class TectonicShieldEventHandler {
 
     @SubscribeEvent
