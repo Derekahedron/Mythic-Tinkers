@@ -60,8 +60,6 @@ public class MTModifierIds {
             new ModifierId(MTUtil.location("tectellus_boon"));
     public static final ModifierId ELEMENT_122_BOON =
             new ModifierId(MTUtil.location("element_122_boon"));
-    public static final ModifierId AURICHALCUM_BOON =
-            new ModifierId(MTUtil.location("aurichalcum_boon"));
     public static final ModifierId PROSPRUM_BOON =
             new ModifierId(MTUtil.location("prosprum_boon"));
     public static final ModifierId GUMBRONZE_BOON =

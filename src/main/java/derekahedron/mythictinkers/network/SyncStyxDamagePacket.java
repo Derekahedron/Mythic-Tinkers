@@ -19,11 +19,9 @@ public record SyncStyxDamagePacket(float styxDamage) {
     }
 
     public void handle(Supplier<NetworkEvent.Context> context) {
-        context.get().enqueueWork(() -> {
-            context.get().enqueueWork(() ->
-                    DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () ->
-                            SyncStyxDamagePacketHandler.handlePacket(this)));
-            context.get().setPacketHandled(true);
-        });
+        context.get().enqueueWork(() ->
+                DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () ->
+                        SyncStyxDamagePacketHandler.handlePacket(this)));
+        context.get().setPacketHandled(true);
     }
 }

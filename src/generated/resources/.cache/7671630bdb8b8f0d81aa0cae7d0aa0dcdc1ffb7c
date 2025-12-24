@@ -1,6 +1,5 @@
-// 1.20.1	2025-11-25T01:51:18.9012643	Mythic Tinkers Modifier Recipes
+// 1.20.1	2025-12-23T13:27:13.9740784	Mythic Tinkers Modifier Recipes
 e248a7227d8d3fc622741846e3aeb45c425d5dc6 data/mythictinkers/recipes/tools/modifiers/ability/dreadshot.json
-996d0daf4e6be829dc75c9e6ec9003a6358278bd data/mythictinkers/recipes/tools/modifiers/boon/aurichalcum_boon.json
 65e9b15624e8e2532f214acf480c3021df6237a7 data/mythictinkers/recipes/tools/modifiers/boon/byzantium_neodymium_boon.json
 f91dfd461a10198e23a1ff552dca0ee18170f1f3 data/mythictinkers/recipes/tools/modifiers/boon/element_122_boon.json
 0135db7e92631b0863139367aed5dce09a478b10 data/mythictinkers/recipes/tools/modifiers/boon/gumbronze_boon.json
@@ -8,7 +7,6 @@ f91dfd461a10198e23a1ff552dca0ee18170f1f3 data/mythictinkers/recipes/tools/modifi
 7dde5ef93dd5d6a00b234c5a8f76855cf208d0f5 data/mythictinkers/recipes/tools/modifiers/boon/tectellus_boon.json
 b0ac548cc81bbb8fa7343fd3069a6612646045f3 data/mythictinkers/recipes/tools/modifiers/defense/polymer_plated.json
 200fdafd05b7e8a1684e1d7080f223e5c102507e data/mythictinkers/recipes/tools/modifiers/salvage/ability/dreadshot.json
-50f056a33052f091aa40033d84a48fb45ee33f02 data/mythictinkers/recipes/tools/modifiers/salvage/boon/aurichalcum_boon.json
 40372e5ef78cb1889d5e044e3d3e2f7644122f55 data/mythictinkers/recipes/tools/modifiers/salvage/boon/byzantium_neodymium_boon.json
 6ce2dd8cad556291b64bcd15f399b092e6985e62 data/mythictinkers/recipes/tools/modifiers/salvage/boon/element_122_boon.json
 e5e0a2a87276f391cb5601bc1951fe2d12120df5 data/mythictinkers/recipes/tools/modifiers/salvage/boon/gumbronze_boon.json

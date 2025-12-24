@@ -279,7 +279,7 @@ public class MTItemTagsProvider extends ItemTagsProvider {
                 .addTag(ForgeTags.Items.AURICHALCUM_INGOTS)
                 .addTag(ForgeTags.Items.DESOLUM_NUGGETS)
                 .addTag(ForgeTags.Items.DESOLUM_INGOTS)
-                .addTag(ForgeTags.Items.PROSPRUM_BLOCKS)
+                .addTag(ForgeTags.Items.PROSPRUM_NUGGETS)
                 .addTag(ForgeTags.Items.PROSPRUM_INGOTS)
                 .addTag(ForgeTags.Items.EARTHEN_GUM_BLOCKS)
                 .add(MTItems.EARTHEN_GUM_WAD.get())

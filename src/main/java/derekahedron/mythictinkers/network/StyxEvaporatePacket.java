@@ -22,11 +22,9 @@ public record StyxEvaporatePacket(BlockPos blockPos) {
     }
 
     public void handle(Supplier<NetworkEvent.Context> context) {
-        context.get().enqueueWork(() -> {
-            context.get().enqueueWork(() ->
-                    DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () ->
-                            StyxEvaporatePacketHandler.handlePacket(this)));
-            context.get().setPacketHandled(true);
-        });
+        context.get().enqueueWork(() ->
+                DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () ->
+                        StyxEvaporatePacketHandler.handlePacket(this)));
+        context.get().setPacketHandled(true);
     }
 }

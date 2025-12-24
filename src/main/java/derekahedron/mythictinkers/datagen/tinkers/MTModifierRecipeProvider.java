@@ -21,6 +21,7 @@ public class MTModifierRecipeProvider extends RecipeProvider {
     public static final String UPGRADE_FOLDER = MODIFIER_FOLDER + "upgrade/";
     public static final String ABILITY_FOLDER = MODIFIER_FOLDER + "ability/";
     public static final String DEFENSE_FOLDER = MODIFIER_FOLDER + "defense/";
+    public static final String SLOTLESS_FOLDER = MODIFIER_FOLDER + "slotless/";
     public static final String BOON_FOLDER = MODIFIER_FOLDER + "boon/";
     public static final String SALVAGE_FOLDER = MODIFIER_FOLDER + "salvage/";
     public static final String SALVAGE_UPGRADE_FOLDER = SALVAGE_FOLDER + "upgrade/";
@@ -103,9 +104,6 @@ public class MTModifierRecipeProvider extends RecipeProvider {
         createBoonRecipe(consumer,
                 MTModifierIds.ELEMENT_122_BOON,
                 MTItems.ELEMENT_122_INGOT.get());
-        createBoonRecipe(consumer,
-                MTModifierIds.AURICHALCUM_BOON,
-                MTItems.AURICHALCUM_INGOT.get());
         createBoonRecipe(consumer,
                 MTModifierIds.PROSPRUM_BOON,
                 MTItems.PROSPRUM_INGOT.get());

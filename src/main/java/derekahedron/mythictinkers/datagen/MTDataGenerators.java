@@ -48,7 +48,7 @@ public class MTDataGenerators {
         DatapackBuiltinEntriesProvider builtinProvider =
                 generator.addProvider(event.includeServer(), new DatapackBuiltinEntriesProvider(
                         output, lookupProvider, registrySetBuilder,
-                        Set.of(derekahedron.mythictinkers.MythicTinkers.MOD_ID)));
+                        Set.of(MythicTinkers.MOD_ID)));
 
         generator.addProvider(event.includeClient(), new MTBlockStateProvider(
                 output, existingFileHelper));

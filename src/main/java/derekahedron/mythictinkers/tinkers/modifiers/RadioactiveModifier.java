@@ -133,7 +133,8 @@ public class RadioactiveModifier extends NoLevelsModifier
     public void onAttacked(
             IToolStackView tool, ModifierEntry modifier, EquipmentContext context,
             EquipmentSlot slotType, DamageSource source, float amount, boolean isDirectDamage) {
-        if (!source.isIndirect() && source.getEntity() != null) {
+        if (!source.isIndirect() && source.getEntity() != null
+                && (slotType.isArmor() || MTUtil.isBlockingWithSlot(context.getEntity(), slotType))) {
             addEntityToList(tool, source.getEntity(), false);
         }
     }
@@ -148,8 +149,9 @@ public class RadioactiveModifier extends NoLevelsModifier
 
     @Override
     public boolean onProjectileHitEntity(
-            ModifierNBT modifiers, ModDataNBT persistentData, ModifierEntry modifier, Projectile projectile,
-            EntityHitResult hit, @Nullable LivingEntity attacker, @Nullable LivingEntity target) {
+            ModifierNBT modifiers, ModDataNBT persistentData, ModifierEntry modifier,
+            Projectile projectile, EntityHitResult hit, @Nullable LivingEntity attacker,
+            @Nullable LivingEntity target, boolean notBlocked) {
         if (MTUtil.shouldBlockHitEffect(projectile, hit)) return false;
         if (target != null && persistentData.getCompound(getId()).getBoolean(RADIOACTIVE_KEY)) {
             makeIrradiated(target);

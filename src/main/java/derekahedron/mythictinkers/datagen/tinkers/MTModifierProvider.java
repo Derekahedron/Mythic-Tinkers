@@ -51,7 +51,6 @@ public class MTModifierProvider extends AbstractModifierProvider {
         createBoon(MTModifierIds.BYZANTIUM_NEODYMIUM_BOON, MTMaterialIds.BYZANTIUM_NEODYMIUM);
         createBoon(MTModifierIds.TECTELLUS_BOON, MTMaterialIds.TECTELLUS);
         createBoon(MTModifierIds.ELEMENT_122_BOON, MTMaterialIds.ELEMENT_122);
-        createBoon(MTModifierIds.AURICHALCUM_BOON, MTMaterialIds.AURICHALCUM);
         createBoon(MTModifierIds.PROSPRUM_BOON, MTMaterialIds.PROSPRUM);
         createBoon(MTModifierIds.GUMBRONZE_BOON, MTMaterialIds.GUMBRONZE);
     }

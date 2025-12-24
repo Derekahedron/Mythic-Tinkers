@@ -6,7 +6,6 @@ import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import slimeknights.tconstruct.common.TinkerTags;
 import slimeknights.tconstruct.library.data.tinkering.AbstractModifierTagProvider;
-import slimeknights.tconstruct.tools.TinkerModifiers;
 import slimeknights.tconstruct.tools.data.ModifierIds;
 
 public class MTModifierTagsProvider extends AbstractModifierTagProvider {
@@ -33,7 +32,6 @@ public class MTModifierTagsProvider extends AbstractModifierTagProvider {
                 .add(MTModifierIds.BYZANTIUM_NEODYMIUM_BOON)
                 .add(MTModifierIds.TECTELLUS_BOON)
                 .add(MTModifierIds.ELEMENT_122_BOON)
-                .add(MTModifierIds.AURICHALCUM_BOON)
                 .add(MTModifierIds.PROSPRUM_BOON)
                 .add(MTModifierIds.GUMBRONZE_BOON);
 

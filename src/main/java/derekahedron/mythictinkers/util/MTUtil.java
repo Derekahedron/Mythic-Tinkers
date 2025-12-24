@@ -55,6 +55,10 @@ public class MTUtil {
         return TagKey.create(parentTag.registry(), parentTag.location().withSuffix("/" + suffix));
     }
 
+    public static boolean isBlockingWithSlot(LivingEntity entity, EquipmentSlot slot) {
+        return entity.isBlocking() && entity.getUseItem() == entity.getItemBySlot(slot);
+    }
+
     public static List<Entity> getEntitiesInRadius(
             Entity baseEntity,
             double radius,
