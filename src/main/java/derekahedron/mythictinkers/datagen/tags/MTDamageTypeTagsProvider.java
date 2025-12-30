@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tags;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.damage.MTDamageTypes;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
@@ -18,12 +19,12 @@ public class MTDamageTypeTagsProvider extends TagsProvider<DamageType> {
             PackOutput output,
             CompletableFuture<HolderLookup.Provider> lookupProvider,
             @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, Registries.DAMAGE_TYPE, lookupProvider, derekahedron.mythictinkers.MythicTinkers.MOD_ID, existingFileHelper);
+        super(output, Registries.DAMAGE_TYPE, lookupProvider, MythicTinkers.MOD_ID, existingFileHelper);
     }
 
     @Override
     public String getName() {
-        return String.format("%s Damage Types", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Damage Types", MythicTinkers.MOD_NAME);
     }
 
     @Override

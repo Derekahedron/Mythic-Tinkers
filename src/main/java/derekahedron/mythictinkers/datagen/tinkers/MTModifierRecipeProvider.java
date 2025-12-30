@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tinkers;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.item.MTItems;
 import derekahedron.mythictinkers.recipe.BoonModifierRecipe;
 import derekahedron.mythictinkers.tinkers.MTSlotTypes;
@@ -34,7 +35,7 @@ public class MTModifierRecipeProvider extends RecipeProvider {
 
     @Override
     public String getName() {
-        return String.format("%s Modifier Recipes", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Modifier Recipes", MythicTinkers.MOD_NAME);
     }
 
     @Override

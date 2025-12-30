@@ -1,6 +1,7 @@
 package derekahedron.mythictinkers.datagen.tags;
 
 import derekahedron.invexp.item.InvExpItemTags;
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.item.MTItemTags;
 import derekahedron.mythictinkers.item.MTItems;
 import derekahedron.mythictinkers.util.ForgeTags;
@@ -27,12 +28,12 @@ public class MTItemTagsProvider extends ItemTagsProvider {
             CompletableFuture<HolderLookup.Provider> lookupProvider,
             CompletableFuture<TagsProvider.TagLookup<Block>> contentsGetter,
             ExistingFileHelper exFileHelper) {
-        super(output, lookupProvider, contentsGetter, derekahedron.mythictinkers.MythicTinkers.MOD_ID, exFileHelper);
+        super(output, lookupProvider, contentsGetter, MythicTinkers.MOD_ID, exFileHelper);
     }
 
     @Override
     public String getName() {
-        return String.format("%s Item Tags", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Item Tags", MythicTinkers.MOD_NAME);
     }
 
     @Override

@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tags;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.worldgen.MTBiomeTags;
 import com.github.alexmodguy.alexscaves.server.level.biome.ACBiomeRegistry;
 import com.kyanite.deeperdarker.world.otherside.OthersideBiomes;
@@ -18,12 +19,12 @@ public class MTBiomeTagsProvider extends BiomeTagsProvider {
             PackOutput output,
             CompletableFuture<HolderLookup.Provider> lookupProvider,
             @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, derekahedron.mythictinkers.MythicTinkers.MOD_ID, existingFileHelper);
+        super(output, lookupProvider, MythicTinkers.MOD_ID, existingFileHelper);
     }
 
     @Override
     public String getName() {
-        return String.format("%s Biome Tags", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Biome Tags", MythicTinkers.MOD_NAME);
     }
 
     @Override

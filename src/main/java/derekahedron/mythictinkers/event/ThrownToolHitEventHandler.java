@@ -4,7 +4,6 @@ import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.tinkers.hooks.MTModifierHooks;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraftforge.event.entity.ProjectileImpactEvent;
@@ -38,15 +37,6 @@ public class ThrownToolHitEventHandler {
                         owner,
                         entityHit.getEntity(),
                         entityHit.getEntity() instanceof LivingEntity livingEntity ? livingEntity : null);
-            }
-        } else if (hitResult instanceof BlockHitResult blockHit) {
-            for (ModifierEntry modifier : tool.getModifiers()) {
-                modifier.getHook(MTModifierHooks.THROWN_TOOL_HIT).onThrownToolHitBlock(
-                        tool,
-                        modifier,
-                        thrownTool,
-                        owner,
-                        blockHit.getBlockPos());
             }
         }
     }

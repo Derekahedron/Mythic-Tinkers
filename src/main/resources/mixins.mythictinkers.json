@@ -5,6 +5,7 @@
   "package": "derekahedron.mythictinkers.mixin",
   "refmap": "mythictinkers.refmap.json",
   "mixins": [
+    "AbstractArrowMixin",
     "AcidBlockMixin",
     "ComposableModifierAccessor",
     "DinosaurSpiritEntityMixin",

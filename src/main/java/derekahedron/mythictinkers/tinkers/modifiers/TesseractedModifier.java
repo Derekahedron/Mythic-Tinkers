@@ -71,6 +71,11 @@ public class TesseractedModifier extends NoLevelsModifier
     }
 
     @Override
+    public int getPriority() {
+        return 0;
+    }
+
+    @Override
     public void onPickupItem(
             IToolStackView tool, ModifierEntry modifier,
             Player player, EquipmentSlot slot, ImmutableList<ItemStack> stacks) {

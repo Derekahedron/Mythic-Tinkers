@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tags;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.tinkers.modifiers.MTModifierIds;
 import derekahedron.mythictinkers.tinkers.modifiers.MTModifierTags;
 import net.minecraft.data.PackOutput;
@@ -11,12 +12,12 @@ import slimeknights.tconstruct.tools.data.ModifierIds;
 public class MTModifierTagsProvider extends AbstractModifierTagProvider {
 
     public MTModifierTagsProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, derekahedron.mythictinkers.MythicTinkers.MOD_ID, existingFileHelper);
+        super(output, MythicTinkers.MOD_ID, existingFileHelper);
     }
 
     @Override
     public String getName() {
-        return String.format("%s Modifier Tags", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Modifier Tags", MythicTinkers.MOD_NAME);
     }
 
     @Override

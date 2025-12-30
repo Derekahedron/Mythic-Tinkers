@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tinkers;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.tinkers.materials.MTMaterialIds;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.Tiers;
@@ -15,7 +16,7 @@ public class MTMaterialStatsDataProvider extends AbstractMaterialStatsDataProvid
 
     @Override
     public String getName() {
-        return String.format("%s Material Stats", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Material Stats", MythicTinkers.MOD_NAME);
     }
 
     @Override

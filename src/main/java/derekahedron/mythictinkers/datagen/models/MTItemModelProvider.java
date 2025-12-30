@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.models;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.item.MTItems;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -8,7 +9,7 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 public class MTItemModelProvider extends ItemModelProvider {
 
     public MTItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, derekahedron.mythictinkers.MythicTinkers.MOD_ID, existingFileHelper);
+        super(output, MythicTinkers.MOD_ID, existingFileHelper);
     }
 
     @Override

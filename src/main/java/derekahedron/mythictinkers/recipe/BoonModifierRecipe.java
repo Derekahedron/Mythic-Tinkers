@@ -27,8 +27,8 @@ import slimeknights.tconstruct.library.tools.definition.ToolDefinition;
 import slimeknights.tconstruct.library.tools.nbt.ToolStack;
 
 import javax.annotation.Nullable;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.function.Consumer;
 
 public class BoonModifierRecipe extends ModifierRecipe {
@@ -69,22 +69,21 @@ public class BoonModifierRecipe extends ModifierRecipe {
                 toolWithModifier = super.getToolWithModifier().stream()
                         .map((stack) -> {
                             if (stack.is(TinkerTags.Items.MODIFIABLE)) {
-                                ToolDefinition toolDefinition =  ToolStack.from(stack).getDefinition();
-                                boolean addedModifier = false;
+                                ToolStack tool = ToolStack.from(stack);
+                                ToolDefinition toolDefinition = tool.getDefinition();
+                                ModifierEntry result = getDisplayResult();
+                                List<ModifierEntry> modifiers = new ArrayList<>(
+                                        IDisplayModifierRecipe.modifiersForResult(result, result));
+
                                 for (MaterialId materialId : materialIds) {
-                                    List<ModifierEntry> modifiers = MTUtil.getMaterialModifiers(
+                                    modifiers.addAll(MTUtil.getMaterialModifiers(
                                             materialId,
-                                            toolDefinition);
-                                    if (!modifiers.isEmpty()) addedModifier = true;
-                                    stack = IDisplayModifierRecipe.withModifiers(stack, modifiers);
+                                            toolDefinition));
                                 }
-                                if (addedModifier) {
-                                    return stack;
-                                }
+                                return IDisplayModifierRecipe.withModifiers(stack, maxToolSize, modifiers);
                             }
-                            return null;
+                            return stack;
                         })
-                        .filter((Objects::nonNull))
                         .toList();
             } else {
                 toolWithModifier = super.getToolWithModifier();

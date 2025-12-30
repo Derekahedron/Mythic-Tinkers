@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tinkers;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.tinkers.materials.MTMaterialIds;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -10,7 +11,7 @@ public class MTMaterialRenderInfoProvider extends AbstractMaterialRenderInfoProv
 
     @Override
     public String getName() {
-        return String.format("%s Render Material Info", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Render Material Info", MythicTinkers.MOD_NAME);
     }
 
     public MTMaterialRenderInfoProvider(PackOutput output, AbstractMaterialSpriteProvider spriteProvider, ExistingFileHelper existingFileHelper) {

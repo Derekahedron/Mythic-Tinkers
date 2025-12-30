@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.models;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.block.MTBlocks;
 import derekahedron.mythictinkers.item.MTItems;
 import derekahedron.mythictinkers.util.MTUtil;
@@ -17,7 +18,7 @@ import java.util.function.Consumer;
 public class MTBlockStateProvider extends BlockStateProvider {
 
     public MTBlockStateProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, derekahedron.mythictinkers.MythicTinkers.MOD_ID, existingFileHelper);
+        super(output, MythicTinkers.MOD_ID, existingFileHelper);
     }
 
     @Override

@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tinkers;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.fluid.MTFluidHolders;
 import derekahedron.mythictinkers.tinkers.materials.MTMaterialIds;
 import com.github.alexmodguy.alexscaves.server.item.ACItemRegistry;
@@ -20,12 +21,12 @@ public class MTMaterialRecipeProvider extends RecipeProvider implements IMateria
 
     @Override
     public String getName() {
-        return String.format("%s Material Recipes", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Material Recipes", MythicTinkers.MOD_NAME);
     }
 
     @Override
     public String getModId() {
-        return derekahedron.mythictinkers.MythicTinkers.MOD_ID;
+        return MythicTinkers.MOD_ID;
     }
 
     @Override

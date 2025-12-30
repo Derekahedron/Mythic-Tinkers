@@ -16,9 +16,11 @@ public interface ThrownToolHitModifierHook {
             IToolStackView tool, ModifierEntry modifier, ThrownTool thrownTool,
             LivingEntity attacker, Entity target, @Nullable LivingEntity livingTarget) {}
 
-    default void onThrownToolHitBlock(
+    default boolean onThrownToolHitsBlock(
             IToolStackView tool, ModifierEntry modifier, ThrownTool thrownTool,
-            LivingEntity owner, BlockPos pos) {}
+            LivingEntity owner, BlockPos pos) {
+        return false;
+    }
 
     record AllMerger(Collection<ThrownToolHitModifierHook> modules) implements ThrownToolHitModifierHook {
         public void onThrownToolHitEntity(
@@ -29,12 +31,15 @@ public interface ThrownToolHitModifierHook {
             }
         }
 
-        public void onThrownToolHitBlock(
+        public boolean onThrownToolHitsBlock(
                 IToolStackView tool, ModifierEntry modifier, ThrownTool thrownTool,
                 LivingEntity owner, BlockPos target) {
             for (ThrownToolHitModifierHook module : this.modules) {
-                module.onThrownToolHitBlock(tool, modifier, thrownTool, owner, target);
+                if (module.onThrownToolHitsBlock(tool, modifier, thrownTool, owner, target)) {
+                    return true;
+                }
             }
+            return false;
         }
     }
 }

@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.advancements;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.item.MTItems;
 import derekahedron.mythictinkers.tinkers.materials.MTMaterialIds;
 import derekahedron.mythictinkers.util.MTUtil;
@@ -20,16 +21,16 @@ import slimeknights.tconstruct.library.json.predicate.tool.ToolStackItemPredicat
 import java.util.function.Consumer;
 
 public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGenerator {
-    public static final ResourceLocation FOLDER = MTUtil.location(derekahedron.mythictinkers.MythicTinkers.MOD_ID + "/");
+    public static final ResourceLocation FOLDER = MTUtil.location(MythicTinkers.MOD_ID + "/");
 
     @Override
     public void generate(HolderLookup.Provider registries, Consumer<Advancement> saver, ExistingFileHelper existingFileHelper) {
         Advancement root = Advancement.Builder.advancement()
                 .display(
                         MTItems.MYTHICAL_TINKERING.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".root.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".root.description"),
-                        MTUtil.location("textures/gui/advancements/backgrounds/" + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".png"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".root.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".root.description"),
+                        MTUtil.location("textures/gui/advancements/backgrounds/" + MythicTinkers.MOD_ID + ".png"),
                         FrameType.TASK,
                         true,
                         true,
@@ -43,8 +44,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(root)
                 .display(
                         MTItems.STYX_BUCKET.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".find_styx.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".find_styx.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".find_styx.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".find_styx.description"),
                         null,
                         FrameType.TASK,
                         true,
@@ -59,8 +60,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(root)
                 .display(
                         MTItems.DOMBSTONE.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_dombstone.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_dombstone.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_dombstone.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_dombstone.description"),
                         null,
                         FrameType.TASK,
                         true,
@@ -75,8 +76,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(root)
                 .display(
                         MTItems.RAW_BYZANTIUM_NEODYMIUM.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_byzantium_neodymium.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_byzantium_neodymium.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_byzantium_neodymium.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_byzantium_neodymium.description"),
                         null,
                         FrameType.TASK,
                         true,
@@ -102,8 +103,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(mineByzantiumNeodymium)
                 .display(
                         MTItems.BYZANTIUM_NEODYMIUM_INGOT.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".byzantium_neodymium_tool.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".byzantium_neodymium_tool.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".byzantium_neodymium_tool.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".byzantium_neodymium_tool.description"),
                         null,
                         FrameType.GOAL,
                         true,
@@ -119,8 +120,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(root)
                 .display(
                         MTItems.RAW_TECTELLUS.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_tectellus.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_tectellus.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_tectellus.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_tectellus.description"),
                         null,
                         FrameType.TASK,
                         true,
@@ -145,8 +146,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(mineTectellus)
                 .display(
                         MTItems.TECTELLUS_INGOT.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".tectellus_tool.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".tectellus_tool.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".tectellus_tool.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".tectellus_tool.description"),
                         null,
                         FrameType.GOAL,
                         true,
@@ -162,8 +163,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(root)
                 .display(
                         MTItems.RAW_ELEMENT_122.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_element_122.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_element_122.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_element_122.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_element_122.description"),
                         null,
                         FrameType.TASK,
                         true,
@@ -178,8 +179,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(mineElement122)
                 .display(
                         MTItems.ELEMENT_122_INGOT.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".element_122_tool.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".element_122_tool.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".element_122_tool.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".element_122_tool.description"),
                         null,
                         FrameType.GOAL,
                         true,
@@ -195,8 +196,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(root)
                 .display(
                         MTItems.ATLANTEAN_BRICKS.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".find_atlantean_ruins.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".find_atlantean_ruins.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".find_atlantean_ruins.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".find_atlantean_ruins.description"),
                         null,
                         FrameType.TASK,
                         true,
@@ -211,8 +212,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(findAtlanteanRuins)
                 .display(
                         MTItems.AURICHALCUM_INGOT.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".aurichalcum_tool.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".aurichalcum_tool.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".aurichalcum_tool.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".aurichalcum_tool.description"),
                         null,
                         FrameType.GOAL,
                         true,
@@ -228,8 +229,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(root)
                 .display(
                         MTItems.PURE_LIGHT.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_pure_light.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_pure_light.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_pure_light.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_pure_light.description"),
                         null,
                         FrameType.TASK,
                         true,
@@ -244,8 +245,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(minePureLight)
                 .display(
                         MTItems.PROSPRUM_INGOT.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".purify_desolum.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".purify_desolum.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".purify_desolum.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".purify_desolum.description"),
                         null,
                         FrameType.TASK,
                         true,
@@ -260,8 +261,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(purifyDesolum)
                 .display(
                         MTItems.PROSPRUM_INGOT.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".prosprum_tool.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".prosprum_tool.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".prosprum_tool.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".prosprum_tool.description"),
                         null,
                         FrameType.GOAL,
                         true,
@@ -277,8 +278,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(root)
                 .display(
                         MTItems.EARTHEN_GUM_WAD.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_earthen_gum.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".mine_earthen_gum.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_earthen_gum.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".mine_earthen_gum.description"),
                         null,
                         FrameType.TASK,
                         true,
@@ -303,8 +304,8 @@ public class MTAdvancements implements ForgeAdvancementProvider.AdvancementGener
                 .parent(mineEarthenGum)
                 .display(
                         MTItems.GUMBRONZE_INGOT.get(),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".gumbronze_tool.title"),
-                        Component.translatable("advancements." + derekahedron.mythictinkers.MythicTinkers.MOD_ID + ".gumbronze_tool.description"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".gumbronze_tool.title"),
+                        Component.translatable("advancements." + MythicTinkers.MOD_ID + ".gumbronze_tool.description"),
                         null,
                         FrameType.GOAL,
                         true,

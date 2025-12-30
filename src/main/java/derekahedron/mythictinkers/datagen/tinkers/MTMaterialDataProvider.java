@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tinkers;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.tinkers.materials.MTMaterialIds;
 import net.minecraft.data.PackOutput;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialDataProvider;
@@ -12,7 +13,7 @@ public class MTMaterialDataProvider extends AbstractMaterialDataProvider {
 
     @Override
     public String getName() {
-        return String.format("%s Materials", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Materials", MythicTinkers.MOD_NAME);
     }
 
     @Override

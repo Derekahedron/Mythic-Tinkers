@@ -103,12 +103,12 @@ public class VengefulShotModifier extends NoLevelsModifier
     }
 
     @Override
-    public void onThrownToolHitBlock(
+    public boolean onThrownToolHitsBlock(
             IToolStackView tool, ModifierEntry modifier, ThrownTool thrownTool,
             LivingEntity owner, BlockPos pos) {
-        if (thrownTool.level().isClientSide()) return;
+        if (thrownTool.level().isClientSide()) return false;
         ModDataNBT persistentData = PersistentDataCapability.getOrWarn(thrownTool);
-        if (persistentData.getCompound(getId()).getBoolean(INACTIVE_KEY)) return;
+        if (persistentData.getCompound(getId()).getBoolean(INACTIVE_KEY)) return false;
 
         List<Entity> entities = MTUtil.getEntitiesInRadius(
                 thrownTool, 10,
@@ -116,9 +116,7 @@ public class VengefulShotModifier extends NoLevelsModifier
                         && livingEntity != owner
                         && livingEntity.isAlive()
                         && livingEntity.hasEffect(MTEffects.MARKED_FOR_DEATH.get()));
-        if (entities.isEmpty()) {
-            return;
-        }
+        if (entities.isEmpty()) return false;
 
         for (Entity entity : entities) {
             if (entity instanceof LivingEntity livingEntity) {
@@ -136,5 +134,7 @@ public class VengefulShotModifier extends NoLevelsModifier
                 livingEntity.removeEffect(MTEffects.MARKED_FOR_DEATH.get());
             }
         }
+
+        return false;
     }
 }

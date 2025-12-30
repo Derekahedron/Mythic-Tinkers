@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tinkers;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.block.MTBlockTags;
 import derekahedron.mythictinkers.tinkers.MTSlotTypes;
 import derekahedron.mythictinkers.tinkers.materials.MTMaterialIds;
@@ -22,7 +23,7 @@ public class MTModifierProvider extends AbstractModifierProvider {
 
     @Override
     public String getName() {
-        return String.format("%s Modifiers", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Modifiers", MythicTinkers.MOD_NAME);
     }
 
     @Override

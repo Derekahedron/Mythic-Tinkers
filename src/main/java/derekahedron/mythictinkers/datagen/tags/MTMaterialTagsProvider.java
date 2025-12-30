@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tags;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.tinkers.materials.MTMaterialIds;
 import derekahedron.mythictinkers.tinkers.materials.MTMaterialTags;
 import net.minecraft.data.PackOutput;
@@ -12,12 +13,12 @@ public class MTMaterialTagsProvider extends AbstractMaterialTagProvider {
     public MTMaterialTagsProvider(
             PackOutput output,
             ExistingFileHelper existingFileHelper) {
-        super(output, derekahedron.mythictinkers.MythicTinkers.MOD_ID, existingFileHelper);
+        super(output, MythicTinkers.MOD_ID, existingFileHelper);
     }
 
     @Override
     public String getName() {
-        return String.format("%s Material Tags", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Material Tags", MythicTinkers.MOD_NAME);
     }
 
     @Override

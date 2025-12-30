@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tags;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.fluid.MTFluidTags;
 import derekahedron.mythictinkers.fluid.MTFluids;
 import derekahedron.mythictinkers.util.ForgeTags;
@@ -19,12 +20,12 @@ public class MTFluidTagsProvider extends FluidTagsProvider {
             PackOutput output,
             CompletableFuture<HolderLookup.Provider> lookupProvider,
             @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, derekahedron.mythictinkers.MythicTinkers.MOD_ID, existingFileHelper);
+        super(output, lookupProvider, MythicTinkers.MOD_ID, existingFileHelper);
     }
 
     @Override
     public String getName() {
-        return String.format("%s Fluid Tags", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Fluid Tags", MythicTinkers.MOD_NAME);
     }
 
     @Override

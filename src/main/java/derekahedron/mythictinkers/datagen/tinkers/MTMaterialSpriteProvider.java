@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tinkers;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.tinkers.materials.MTMaterialIds;
 import slimeknights.tconstruct.library.client.data.material.AbstractMaterialSpriteProvider;
 import slimeknights.tconstruct.library.client.data.spritetransformer.GreyToColorMapping;
@@ -9,7 +10,7 @@ public class MTMaterialSpriteProvider extends AbstractMaterialSpriteProvider {
 
     @Override
     public String getName() {
-        return String.format("%s Material Sprites", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Material Sprites", MythicTinkers.MOD_NAME);
     }
 
     @Override

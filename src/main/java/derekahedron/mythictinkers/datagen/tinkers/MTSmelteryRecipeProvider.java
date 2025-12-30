@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tinkers;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.fluid.MTFluidHolders;
 import derekahedron.mythictinkers.fluid.MTFluids;
 import derekahedron.mythictinkers.item.MTItems;
@@ -39,12 +40,12 @@ public class MTSmelteryRecipeProvider extends RecipeProvider implements ISmelter
 
     @Override
     public String getModId() {
-        return derekahedron.mythictinkers.MythicTinkers.MOD_ID;
+        return MythicTinkers.MOD_ID;
     }
 
     @Override
     public String getName() {
-        return String.format("%s Smeltery Recipes", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Smeltery Recipes", MythicTinkers.MOD_NAME);
     }
 
     @Override

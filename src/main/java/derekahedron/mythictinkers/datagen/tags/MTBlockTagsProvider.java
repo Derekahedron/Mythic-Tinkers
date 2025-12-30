@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.datagen.tags;
 
+import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.block.MTBlockTags;
 import derekahedron.mythictinkers.block.MTBlocks;
 import derekahedron.mythictinkers.util.CompatUtil;
@@ -28,12 +29,12 @@ public class MTBlockTagsProvider extends BlockTagsProvider {
             PackOutput output,
             CompletableFuture<HolderLookup.Provider> lookupProvider,
             @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, derekahedron.mythictinkers.MythicTinkers.MOD_ID, existingFileHelper);
+        super(output, lookupProvider, MythicTinkers.MOD_ID, existingFileHelper);
     }
 
     @Override
     public String getName() {
-        return String.format("%s Block Tags", derekahedron.mythictinkers.MythicTinkers.MOD_NAME);
+        return String.format("%s Block Tags", MythicTinkers.MOD_NAME);
     }
 
     @Override
