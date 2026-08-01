@@ -40,4 +40,11 @@ public class MTModifierHooks {
                     ThrownToolHitModifierHook.class,
                     ThrownToolHitModifierHook.AllMerger::new,
                     new ThrownToolHitModifierHook() {});
+
+    public static final ModuleHook<ShieldBlockModifierHook> SHIELD_BLOCK =
+            ModifierHooks.register(
+                    MTUtil.location("shield_block"),
+                    ShieldBlockModifierHook.class,
+                    ShieldBlockModifierHook.AllMerger::new,
+                    (tool, modifier, entity, source, damage) -> {});
 }

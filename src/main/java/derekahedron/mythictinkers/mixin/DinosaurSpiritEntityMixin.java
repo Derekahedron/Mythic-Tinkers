@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.mixin;
 
+import derekahedron.mythictinkers.tinkers.modifiers.MTModifierIds;
 import derekahedron.mythictinkers.tinkers.modifiers.MTModifiers;
 import com.github.alexmodguy.alexscaves.server.entity.item.DinosaurSpiritEntity;
 import net.minecraft.world.entity.player.Player;
@@ -20,7 +21,7 @@ public class DinosaurSpiritEntityMixin {
             cancellable = true,
             remap = false)
     private void preventFading(Player player, CallbackInfo ci) {
-        if (ModifierUtil.getModifierLevel(player.getUseItem(), MTModifiers.TECTONIC_SHIELD.getId()) > 0 ) {
+        if (ModifierUtil.getModifierLevel(player.getUseItem(), MTModifierIds.TECTONIC_SHIELD) > 0) {
             ci.cancel();
         }
     }

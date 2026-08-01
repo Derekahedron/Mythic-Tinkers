@@ -59,7 +59,7 @@ public class MTPlacedFeatures {
                 context.lookup(Registries.CONFIGURED_FEATURE)
                         .getOrThrow(MTConfiguredFeatures.BYZANTIUM_NEODYMIUM_MAGNETIC_NODE),
                 List.of(
-                        CountPlacement.of(3),
+                        CountPlacement.of(4),
                         HeightRangePlacement.uniform(
                                 VerticalAnchor.aboveBottom(0),
                                 VerticalAnchor.absolute(256)),

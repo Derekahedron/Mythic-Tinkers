@@ -1,5 +1,7 @@
 package derekahedron.mythictinkers.tinkers.modifiers;
 
+import derekahedron.mythictinkers.tinkers.hooks.MTModifierHooks;
+import derekahedron.mythictinkers.tinkers.hooks.ShieldBlockModifierHook;
 import derekahedron.mythictinkers.util.MTUtil;
 import com.github.alexmodguy.alexscaves.AlexsCaves;
 import com.github.alexmodguy.alexscaves.server.item.HazmatArmorItem;
@@ -23,7 +25,7 @@ import net.minecraft.world.phys.EntityHitResult;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.modifiers.ModifierEntry;
 import slimeknights.tconstruct.library.modifiers.ModifierHooks;
-import slimeknights.tconstruct.library.modifiers.hook.armor.OnAttackedModifierHook;
+import slimeknights.tconstruct.library.modifiers.hook.armor.ModifyDamageModifierHook;
 import slimeknights.tconstruct.library.modifiers.hook.behavior.ToolDamageModifierHook;
 import slimeknights.tconstruct.library.modifiers.hook.build.ModifierRemovalHook;
 import slimeknights.tconstruct.library.modifiers.hook.combat.MeleeHitModifierHook;
@@ -42,9 +44,16 @@ import slimeknights.tconstruct.library.tools.nbt.ModifierNBT;
 import javax.annotation.Nullable;
 import java.util.UUID;
 
-public class RadioactiveModifier extends NoLevelsModifier
-        implements ToolDamageModifierHook, InventoryTickModifierHook, ModifierRemovalHook,
-        OnAttackedModifierHook, MeleeHitModifierHook, ProjectileLaunchModifierHook, ProjectileHitModifierHook {
+public class RadioactiveModifier extends NoLevelsModifier implements
+        ToolDamageModifierHook,
+        InventoryTickModifierHook,
+        ModifierRemovalHook,
+        MeleeHitModifierHook,
+        ModifyDamageModifierHook,
+        ProjectileLaunchModifierHook,
+        ProjectileHitModifierHook,
+        ShieldBlockModifierHook {
+
     public static final String ENTITIES_KEY = "Entities" ;
     public static final String UUID_KEY = "UUID" ;
     public static final String INDIRECT_KEY = "Indirect" ;
@@ -63,9 +72,10 @@ public class RadioactiveModifier extends NoLevelsModifier
                 ModifierHooks.INVENTORY_TICK,
                 ModifierHooks.REMOVE,
                 ModifierHooks.MELEE_HIT,
-                ModifierHooks.ON_ATTACKED,
+                ModifierHooks.MODIFY_HURT,
                 ModifierHooks.PROJECTILE_LAUNCH,
-                ModifierHooks.PROJECTILE_HIT);
+                ModifierHooks.PROJECTILE_HIT,
+                MTModifierHooks.SHIELD_BLOCK);
     }
 
     @Override
@@ -123,35 +133,67 @@ public class RadioactiveModifier extends NoLevelsModifier
 
     @Override
     public void afterMeleeHit(
-            IToolStackView tool, ModifierEntry modifier, ToolAttackContext context, float damageDealt) {
+            IToolStackView tool,
+            ModifierEntry modifier,
+            ToolAttackContext context,
+            float damageDealt) {
         if (context.getLivingTarget() != null) {
             addEntityToList(tool, context.getLivingTarget(), false);
         }
     }
 
     @Override
-    public void onAttacked(
-            IToolStackView tool, ModifierEntry modifier, EquipmentContext context,
-            EquipmentSlot slotType, DamageSource source, float amount, boolean isDirectDamage) {
-        if (!source.isIndirect() && source.getEntity() != null
-                && (slotType.isArmor() || MTUtil.isBlockingWithSlot(context.getEntity(), slotType))) {
+    public float modifyDamageTaken(
+            IToolStackView tool,
+            ModifierEntry modifier,
+            EquipmentContext context,
+            EquipmentSlot slotType,
+            DamageSource source,
+            float amount,
+            boolean isDirectDamage) {
+        if (isDirectDamage
+                && source.getEntity() != null
+                && slotType.isArmor()) {
+            addEntityToList(tool, source.getEntity(), false);
+        }
+        return amount;
+    }
+
+    @Override
+    public void onShieldBlock(
+            IToolStackView tool,
+            ModifierEntry modifier,
+            LivingEntity entity,
+            DamageSource source,
+            float damage) {
+        if (!source.isIndirect()
+                && source.getEntity() != null) {
             addEntityToList(tool, source.getEntity(), false);
         }
     }
 
     @Override
     public void onProjectileLaunch(
-            IToolStackView tool, ModifierEntry modifier, LivingEntity shooter,
-            Projectile projectile, @Nullable AbstractArrow arrow,
-            ModDataNBT persistentData, boolean primary) {
+            IToolStackView tool,
+            ModifierEntry modifier,
+            LivingEntity shooter,
+            Projectile projectile,
+            @Nullable AbstractArrow arrow,
+            ModDataNBT persistentData,
+            boolean primary) {
         addEntityToList(tool, projectile, true);
     }
 
     @Override
     public boolean onProjectileHitEntity(
-            ModifierNBT modifiers, ModDataNBT persistentData, ModifierEntry modifier,
-            Projectile projectile, EntityHitResult hit, @Nullable LivingEntity attacker,
-            @Nullable LivingEntity target, boolean notBlocked) {
+            ModifierNBT modifiers,
+            ModDataNBT persistentData,
+            ModifierEntry modifier,
+            Projectile projectile,
+            EntityHitResult hit,
+            @Nullable LivingEntity attacker,
+            @Nullable LivingEntity target,
+            boolean notBlocked) {
         if (MTUtil.shouldBlockHitEffect(projectile, hit)) return false;
         if (target != null && persistentData.getCompound(getId()).getBoolean(RADIOACTIVE_KEY)) {
             makeIrradiated(target);
