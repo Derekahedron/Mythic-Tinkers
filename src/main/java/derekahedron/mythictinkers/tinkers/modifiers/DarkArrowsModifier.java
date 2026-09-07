@@ -26,6 +26,7 @@ public class DarkArrowsModifier extends NoLevelsModifier implements ProjectileLa
     private @Nullable ItemStack latestDarkArrow;
 
     @Override
+    @SuppressWarnings("deprecation")
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,

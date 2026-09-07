@@ -19,6 +19,7 @@ public class TerraformidableModifier extends NoLevelsModifier implements Protect
     public static final float DAMAGE_MULTIPLIER = 1.5F;
 
     @Override
+    @SuppressWarnings("deprecation")
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,

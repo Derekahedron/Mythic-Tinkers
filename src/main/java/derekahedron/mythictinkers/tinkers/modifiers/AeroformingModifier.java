@@ -36,6 +36,7 @@ public class AeroformingModifier extends NoLevelsModifier implements
     public static final String CHARGE_KEY = "Charge";
 
     @Override
+    @SuppressWarnings("deprecation")
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,

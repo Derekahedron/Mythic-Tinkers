@@ -216,7 +216,7 @@
   "material.mythictinkers.prosprum.armor": "Getting hit inflicts your attacker with the Marked for Death effect",
   "material.mythictinkers.gumbronze": "Gumbronze",
   "material.mythictinkers.gumbronze.flavor": "A hardened alloy of metal and rare gum of the earth. Its durability if off the charts!",
-  "material.mythictinkers.gumbronze.encyclopedia": "The less hungry you are, the less likely your tool is to take durability damage. While you have 8 ore more full hunger points, your tool takes no damage",
+  "material.mythictinkers.gumbronze.encyclopedia": "The less hungry you are, the less likely your tool is to take durability damage. While you have full hunger points, your tool takes no damage",
 
 
   "modifier.mythictinkers.attractive": "Attractive",

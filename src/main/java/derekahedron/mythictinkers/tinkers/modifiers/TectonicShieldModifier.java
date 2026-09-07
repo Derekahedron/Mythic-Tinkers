@@ -16,6 +16,7 @@ import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 public class TectonicShieldModifier extends Modifier implements UsingToolModifierHook {
 
     @Override
+    @SuppressWarnings("deprecation")
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,

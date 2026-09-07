@@ -34,6 +34,7 @@ public class VengefulStrikeModifier extends NoLevelsModifier implements GeneralI
     public static final int DURATION = (int) (20 * 4.0F);
 
     @Override
+    @SuppressWarnings("deprecation")
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,

@@ -18,6 +18,7 @@ public class DarknessProtectionModifier extends Modifier implements ProtectionMo
     public static final float PROTECTION_PER_LEVEL = 2.0F;
 
     @Override
+    @SuppressWarnings("deprecation")
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,

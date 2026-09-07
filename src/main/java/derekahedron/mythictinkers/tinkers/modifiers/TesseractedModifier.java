@@ -59,6 +59,7 @@ public class TesseractedModifier extends NoLevelsModifier
     public static final String ACTIVE_KEY = "Active";
 
     @Override
+    @SuppressWarnings("deprecation")
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,

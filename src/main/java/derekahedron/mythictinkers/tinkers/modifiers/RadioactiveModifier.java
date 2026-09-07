@@ -65,6 +65,7 @@ public class RadioactiveModifier extends NoLevelsModifier implements
     }
 
     @Override
+    @SuppressWarnings("deprecation")
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,

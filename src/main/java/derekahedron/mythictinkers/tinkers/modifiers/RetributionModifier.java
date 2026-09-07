@@ -16,6 +16,7 @@ public class RetributionModifier extends NoLevelsModifier implements OnAttackedM
     public static final int DURATION = (int) (20 * 4.0F);
 
     @Override
+    @SuppressWarnings("deprecation")
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,

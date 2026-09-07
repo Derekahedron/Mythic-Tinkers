@@ -12,10 +12,11 @@ import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import javax.annotation.Nullable;
 
 public class GumbreakableModifier extends NoLevelsModifier implements ToolDamageModifierHook {
-    public static final int MAX_FOOD_LEVEL = 18;
+    public static final int MAX_FOOD_LEVEL = 20;
     public static final int MIN_FOOD_LEVEL = 6;
 
     @Override
+    @SuppressWarnings("deprecation")
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,

@@ -27,6 +27,7 @@ public class DesolateModifier extends NoLevelsModifier implements MeleeHitModifi
     public static final String INACTIVE_KEY = "Inactive";
 
     @Override
+    @SuppressWarnings("deprecation")
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
         hookBuilder.addHook(this,
